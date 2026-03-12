@@ -1,0 +1,1251 @@
+{
+  "model_info": {
+    "translocation_detected": {
+      "name": "Extra Trees",
+      "auc": 0.822,
+      "accuracy": 0.743,
+      "f1": 0.77,
+      "n_samples": 339,
+      "n_class0": 153,
+      "n_class1": 186,
+      "top_features": [
+        {
+          "name": "size_nm",
+          "importance": 0.113
+        },
+        {
+          "name": "surface_coating",
+          "importance": 0.094
+        },
+        {
+          "name": "shape",
+          "importance": 0.085
+        },
+        {
+          "name": "material_class",
+          "importance": 0.079
+        },
+        {
+          "name": "core_material",
+          "importance": 0.077
+        },
+        {
+          "name": "exposure_route",
+          "importance": 0.076
+        },
+        {
+          "name": "dose_value",
+          "importance": 0.075
+        },
+        {
+          "name": "gd_numeric",
+          "importance": 0.065
+        }
+      ]
+    },
+    "placental_accumulation": {
+      "name": "Extra Trees",
+      "auc": 0.886,
+      "accuracy": 0.941,
+      "f1": 0.969,
+      "n_samples": 236,
+      "n_class0": 14,
+      "n_class1": 222,
+      "top_features": [
+        {
+          "name": "exposure_route",
+          "importance": 0.149
+        },
+        {
+          "name": "shape",
+          "importance": 0.112
+        },
+        {
+          "name": "size_nm",
+          "importance": 0.077
+        },
+        {
+          "name": "surface_coating",
+          "importance": 0.076
+        },
+        {
+          "name": "model_type",
+          "importance": 0.074
+        },
+        {
+          "name": "dose_value",
+          "importance": 0.071
+        },
+        {
+          "name": "core_material",
+          "importance": 0.07
+        },
+        {
+          "name": "surface_charge_cat",
+          "importance": 0.064
+        }
+      ]
+    },
+    "cytotoxicity_observed": {
+      "name": "Gradient Boosting",
+      "auc": 0.926,
+      "accuracy": 0.845,
+      "f1": 0.831,
+      "n_samples": 368,
+      "n_class0": 207,
+      "n_class1": 161,
+      "top_features": [
+        {
+          "name": "shape",
+          "importance": 0.204
+        },
+        {
+          "name": "therapeutic_payload",
+          "importance": 0.106
+        },
+        {
+          "name": "size_nm",
+          "importance": 0.102
+        },
+        {
+          "name": "surface_coating",
+          "importance": 0.096
+        },
+        {
+          "name": "core_material",
+          "importance": 0.094
+        },
+        {
+          "name": "species",
+          "importance": 0.076
+        },
+        {
+          "name": "surface_charge_cat",
+          "importance": 0.074
+        },
+        {
+          "name": "gd_numeric",
+          "importance": 0.074
+        }
+      ]
+    }
+  },
+  "gd_stats": [
+    {
+      "gd": 0,
+      "n_trans": 4,
+      "trans_rate": 1.0,
+      "n_accum": 1,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 0.5,
+      "n_trans": 7,
+      "trans_rate": 0.857,
+      "n_accum": 6,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 1,
+      "n_trans": 9,
+      "trans_rate": 0.889,
+      "n_accum": 7,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 2,
+      "n_trans": 3,
+      "trans_rate": 0.333,
+      "n_accum": 1,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 3,
+      "n_trans": 5,
+      "trans_rate": 0.8,
+      "n_accum": 0,
+      "accum_rate": null
+    },
+    {
+      "gd": 5,
+      "n_trans": 4,
+      "trans_rate": 0.5,
+      "n_accum": 2,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 5.5,
+      "n_trans": 4,
+      "trans_rate": 1.0,
+      "n_accum": 0,
+      "accum_rate": null
+    },
+    {
+      "gd": 6,
+      "n_trans": 6,
+      "trans_rate": 0.667,
+      "n_accum": 1,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 7,
+      "n_trans": 8,
+      "trans_rate": 0.75,
+      "n_accum": 2,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 9,
+      "n_trans": 3,
+      "trans_rate": 0.667,
+      "n_accum": 1,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 9.5,
+      "n_trans": 3,
+      "trans_rate": 0.333,
+      "n_accum": 2,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 10,
+      "n_trans": 6,
+      "trans_rate": 0.5,
+      "n_accum": 3,
+      "accum_rate": 0.667
+    },
+    {
+      "gd": 11,
+      "n_trans": 4,
+      "trans_rate": 0.5,
+      "n_accum": 1,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 14,
+      "n_trans": 12,
+      "trans_rate": 0.5,
+      "n_accum": 8,
+      "accum_rate": 0.75
+    },
+    {
+      "gd": 14.5,
+      "n_trans": 6,
+      "trans_rate": 0.5,
+      "n_accum": 6,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 15,
+      "n_trans": 6,
+      "trans_rate": 1.0,
+      "n_accum": 5,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 16,
+      "n_trans": 13,
+      "trans_rate": 0.154,
+      "n_accum": 11,
+      "accum_rate": 0.727
+    },
+    {
+      "gd": 17,
+      "n_trans": 6,
+      "trans_rate": 0.667,
+      "n_accum": 5,
+      "accum_rate": 1.0
+    },
+    {
+      "gd": 18,
+      "n_trans": 6,
+      "trans_rate": 0.5,
+      "n_accum": 5,
+      "accum_rate": 0.8
+    },
+    {
+      "gd": 19,
+      "n_trans": 47,
+      "trans_rate": 0.681,
+      "n_accum": 42,
+      "accum_rate": 1.0
+    }
+  ],
+  "gd_window_stats": [
+    {
+      "window": "12-13",
+      "n": 6,
+      "trans_rate": 0.667,
+      "accum_rate": 1.0
+    },
+    {
+      "window": "14-15",
+      "n": 24,
+      "trans_rate": 0.625,
+      "accum_rate": 0.895
+    },
+    {
+      "window": "15.5-17",
+      "n": 21,
+      "trans_rate": 0.286,
+      "accum_rate": 0.722
+    },
+    {
+      "window": "17.5+",
+      "n": 58,
+      "trans_rate": 0.638,
+      "accum_rate": 0.98
+    }
+  ],
+  "best_per_coating": [
+    {
+      "coating": "PEG",
+      "ligand": "RSGVAKS",
+      "payload": "dexamethasone",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.987,
+      "trans": 0.043,
+      "tox": 0.004,
+      "score": 1.905
+    },
+    {
+      "coating": "NH2",
+      "ligand": "RGD",
+      "payload": "dexamethasone",
+      "size": 20,
+      "charge": "neutral",
+      "accum": 0.99,
+      "trans": 0.073,
+      "tox": 0.006,
+      "score": 1.864
+    },
+    {
+      "coating": "DSPE-PEG",
+      "ligand": "RGD",
+      "payload": "dexamethasone",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.993,
+      "trans": 0.107,
+      "tox": 0.006,
+      "score": 1.821
+    },
+    {
+      "coating": "PEG_COOH",
+      "ligand": "RGD",
+      "payload": "siRNA",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.977,
+      "trans": 0.097,
+      "tox": 0.001,
+      "score": 1.808
+    },
+    {
+      "coating": "PEG_NH2",
+      "ligand": "RSGVAKS",
+      "payload": "siRNA",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.98,
+      "trans": 0.103,
+      "tox": 0.001,
+      "score": 1.804
+    },
+    {
+      "coating": "COOH",
+      "ligand": "CGKRK",
+      "payload": "none",
+      "size": 20,
+      "charge": "neutral",
+      "accum": 0.997,
+      "trans": 0.13,
+      "tox": 0.006,
+      "score": 1.793
+    },
+    {
+      "coating": "BSA",
+      "ligand": "CGKRK",
+      "payload": "none",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.997,
+      "trans": 0.143,
+      "tox": 0.006,
+      "score": 1.773
+    },
+    {
+      "coating": "PVP",
+      "ligand": "NKGLRNK",
+      "payload": "siRNA",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.957,
+      "trans": 0.157,
+      "tox": 0.001,
+      "score": 1.678
+    },
+    {
+      "coating": "dextran",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 15,
+      "charge": "neutral",
+      "accum": 0.903,
+      "trans": 0.203,
+      "tox": 0.001,
+      "score": 1.501
+    },
+    {
+      "coating": "citrate",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.937,
+      "trans": 0.243,
+      "tox": 0.011,
+      "score": 1.497
+    },
+    {
+      "coating": "chitosan",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.937,
+      "trans": 0.243,
+      "tox": 0.011,
+      "score": 1.497
+    },
+    {
+      "coating": "folate",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.953,
+      "trans": 0.297,
+      "tox": 0.01,
+      "score": 1.452
+    },
+    {
+      "coating": "lipid",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.96,
+      "trans": 0.33,
+      "tox": 0.01,
+      "score": 1.415
+    },
+    {
+      "coating": "mPEG",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.96,
+      "trans": 0.37,
+      "tox": 0.007,
+      "score": 1.358
+    },
+    {
+      "coating": "silica",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.92,
+      "trans": 0.367,
+      "tox": 0.003,
+      "score": 1.287
+    },
+    {
+      "coating": "transferrin",
+      "ligand": "CGKRK",
+      "payload": "siRNA",
+      "size": 100,
+      "charge": "neutral",
+      "accum": 0.92,
+      "trans": 0.37,
+      "tox": 0.003,
+      "score": 1.282
+    }
+  ],
+  "shiri_compare": [
+    {
+      "name": "mPEG-GNP",
+      "coating": "mPEG",
+      "ligand": "none",
+      "actual_pf": 181,
+      "actual_uptake": 101,
+      "pred_accum": 0.943,
+      "pred_trans": 0.493,
+      "pred_tox": 0.003,
+      "score": 1.144
+    },
+    {
+      "name": "Insulin-GNP",
+      "coating": "mPEG",
+      "ligand": "insulin",
+      "actual_pf": 186,
+      "actual_uptake": 150,
+      "pred_accum": 0.943,
+      "pred_trans": 0.503,
+      "pred_tox": 0.003,
+      "score": 1.129
+    },
+    {
+      "name": "Glucose-GNP",
+      "coating": "mPEG",
+      "ligand": "glucose",
+      "actual_pf": 360,
+      "actual_uptake": 131,
+      "pred_accum": 0.937,
+      "pred_trans": 0.497,
+      "pred_tox": 0.003,
+      "score": 1.126
+    },
+    {
+      "name": "PEG+RSGVAKS+dexamethasone (המלצה)",
+      "coating": "PEG",
+      "ligand": "RSGVAKS",
+      "actual_pf": null,
+      "actual_uptake": null,
+      "pred_accum": 0.987,
+      "pred_trans": 0.043,
+      "pred_tox": 0.004,
+      "score": 1.905
+    }
+  ],
+  "coat_sensitivity": {
+    "PEG": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "mPEG": {
+      "accum": 0.893,
+      "trans": 0.357,
+      "tox": 0.007,
+      "score": 1.245
+    },
+    "COOH": {
+      "accum": 0.993,
+      "trans": 0.127,
+      "tox": 0.006,
+      "score": 1.791
+    },
+    "NH2": {
+      "accum": 0.987,
+      "trans": 0.083,
+      "tox": 0.001,
+      "score": 1.848
+    },
+    "citrate": {
+      "accum": 0.847,
+      "trans": 0.21,
+      "tox": 0.001,
+      "score": 1.377
+    },
+    "PVP": {
+      "accum": 0.94,
+      "trans": 0.17,
+      "tox": 0.001,
+      "score": 1.624
+    },
+    "BSA": {
+      "accum": 0.993,
+      "trans": 0.147,
+      "tox": 0.006,
+      "score": 1.761
+    },
+    "chitosan": {
+      "accum": 0.847,
+      "trans": 0.213,
+      "tox": 0.001,
+      "score": 1.372
+    },
+    "silica": {
+      "accum": 0.853,
+      "trans": 0.367,
+      "tox": 0.003,
+      "score": 1.154
+    },
+    "PEG_COOH": {
+      "accum": 0.97,
+      "trans": 0.107,
+      "tox": 0.001,
+      "score": 1.779
+    },
+    "PEG_NH2": {
+      "accum": 0.97,
+      "trans": 0.113,
+      "tox": 0.001,
+      "score": 1.769
+    },
+    "dextran": {
+      "accum": 0.853,
+      "trans": 0.21,
+      "tox": 0.001,
+      "score": 1.391
+    },
+    "transferrin": {
+      "accum": 0.853,
+      "trans": 0.373,
+      "tox": 0.003,
+      "score": 1.144
+    },
+    "folate": {
+      "accum": 0.87,
+      "trans": 0.273,
+      "tox": 0.001,
+      "score": 1.329
+    },
+    "lipid": {
+      "accum": 0.883,
+      "trans": 0.313,
+      "tox": 0.004,
+      "score": 1.293
+    },
+    "DSPE-PEG": {
+      "accum": 0.993,
+      "trans": 0.11,
+      "tox": 0.001,
+      "score": 1.821
+    }
+  },
+  "lig_sensitivity": {
+    "none": {
+      "accum": 0.987,
+      "trans": 0.227,
+      "tox": 0.0,
+      "score": 1.633
+    },
+    "insulin": {
+      "accum": 0.987,
+      "trans": 0.233,
+      "tox": 0.0,
+      "score": 1.623
+    },
+    "glucose": {
+      "accum": 0.983,
+      "trans": 0.223,
+      "tox": 0.0,
+      "score": 1.631
+    },
+    "folate": {
+      "accum": 0.983,
+      "trans": 0.193,
+      "tox": 0.0,
+      "score": 1.676
+    },
+    "transferrin": {
+      "accum": 0.987,
+      "trans": 0.223,
+      "tox": 0.001,
+      "score": 1.637
+    },
+    "CGKRK": {
+      "accum": 0.983,
+      "trans": 0.077,
+      "tox": 0.001,
+      "score": 1.851
+    },
+    "iRGD": {
+      "accum": 0.987,
+      "trans": 0.227,
+      "tox": 0.0,
+      "score": 1.633
+    },
+    "RGD": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "NKGLRNK": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "RSGVAKS": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "antibody": {
+      "accum": 0.983,
+      "trans": 0.127,
+      "tox": 0.001,
+      "score": 1.776
+    },
+    "aptamer": {
+      "accum": 0.983,
+      "trans": 0.13,
+      "tox": 0.001,
+      "score": 1.771
+    }
+  },
+  "size_sensitivity": {
+    "5": {
+      "accum": 0.967,
+      "trans": 0.073,
+      "tox": 0.013,
+      "score": 1.81
+    },
+    "10": {
+      "accum": 0.977,
+      "trans": 0.067,
+      "tox": 0.013,
+      "score": 1.84
+    },
+    "15": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "20": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "30": {
+      "accum": 0.977,
+      "trans": 0.087,
+      "tox": 0.001,
+      "score": 1.822
+    },
+    "50": {
+      "accum": 0.98,
+      "trans": 0.123,
+      "tox": 0.002,
+      "score": 1.773
+    },
+    "100": {
+      "accum": 0.987,
+      "trans": 0.083,
+      "tox": 0.003,
+      "score": 1.845
+    }
+  },
+  "charge_sensitivity": {
+    "negative": {
+      "accum": 0.847,
+      "trans": 0.127,
+      "tox": 0.001,
+      "score": 1.503
+    },
+    "neutral": {
+      "accum": 0.98,
+      "trans": 0.06,
+      "tox": 0.001,
+      "score": 1.869
+    },
+    "positive": {
+      "accum": 0.97,
+      "trans": 0.2,
+      "tox": 0.05,
+      "score": 1.59
+    }
+  },
+  "heatmap": {
+    "coatings": [
+      "PEG",
+      "mPEG",
+      "COOH",
+      "NH2",
+      "citrate",
+      "PVP",
+      "BSA",
+      "chitosan",
+      "silica",
+      "PEG_COOH",
+      "PEG_NH2",
+      "dextran",
+      "transferrin",
+      "folate",
+      "lipid",
+      "DSPE-PEG"
+    ],
+    "ligands": [
+      "none",
+      "insulin",
+      "glucose",
+      "folate",
+      "transferrin",
+      "CGKRK",
+      "iRGD",
+      "RGD",
+      "NKGLRNK",
+      "RSGVAKS",
+      "antibody",
+      "aptamer"
+    ],
+    "scores": [
+      [
+        1.382,
+        1.372,
+        1.383,
+        1.375,
+        1.311,
+        1.538,
+        1.387,
+        1.525,
+        1.529,
+        1.514,
+        1.429,
+        1.426
+      ],
+      [
+        0.847,
+        0.829,
+        0.83,
+        0.781,
+        0.775,
+        0.864,
+        0.839,
+        0.823,
+        0.835,
+        0.814,
+        0.781,
+        0.786
+      ],
+      [
+        1.152,
+        1.142,
+        1.156,
+        1.149,
+        1.086,
+        1.338,
+        1.157,
+        1.301,
+        1.307,
+        1.286,
+        1.198,
+        1.198
+      ],
+      [
+        1.346,
+        1.336,
+        1.351,
+        1.334,
+        1.27,
+        1.51,
+        1.351,
+        1.493,
+        1.495,
+        1.478,
+        1.399,
+        1.396
+      ],
+      [
+        1.052,
+        1.042,
+        1.035,
+        1.001,
+        0.991,
+        1.077,
+        1.051,
+        1.032,
+        1.044,
+        1.027,
+        1.007,
+        1.012
+      ],
+      [
+        1.202,
+        1.192,
+        1.206,
+        1.176,
+        1.144,
+        1.316,
+        1.206,
+        1.294,
+        1.302,
+        1.285,
+        1.216,
+        1.223
+      ],
+      [
+        1.114,
+        1.104,
+        1.119,
+        1.111,
+        1.048,
+        1.311,
+        1.119,
+        1.263,
+        1.268,
+        1.248,
+        1.16,
+        1.16
+      ],
+      [
+        1.047,
+        1.037,
+        1.029,
+        0.996,
+        0.986,
+        1.074,
+        1.046,
+        1.03,
+        1.042,
+        1.026,
+        1.001,
+        1.007
+      ],
+      [
+        0.865,
+        0.849,
+        0.847,
+        0.794,
+        0.796,
+        0.893,
+        0.86,
+        0.839,
+        0.852,
+        0.831,
+        0.79,
+        0.795
+      ],
+      [
+        1.307,
+        1.297,
+        1.316,
+        1.308,
+        1.238,
+        1.462,
+        1.312,
+        1.447,
+        1.451,
+        1.438,
+        1.353,
+        1.351
+      ],
+      [
+        1.296,
+        1.286,
+        1.306,
+        1.298,
+        1.227,
+        1.464,
+        1.301,
+        1.445,
+        1.449,
+        1.436,
+        1.352,
+        1.35
+      ],
+      [
+        1.071,
+        1.061,
+        1.053,
+        1.018,
+        1.01,
+        1.093,
+        1.07,
+        1.048,
+        1.06,
+        1.043,
+        1.022,
+        1.027
+      ],
+      [
+        0.857,
+        0.84,
+        0.834,
+        0.779,
+        0.788,
+        0.884,
+        0.847,
+        0.825,
+        0.838,
+        0.816,
+        0.776,
+        0.781
+      ],
+      [
+        1.047,
+        1.037,
+        1.028,
+        0.983,
+        0.987,
+        1.054,
+        1.047,
+        1.009,
+        1.021,
+        1.004,
+        0.982,
+        0.982
+      ],
+      [
+        0.903,
+        0.893,
+        0.893,
+        0.855,
+        0.837,
+        0.931,
+        0.903,
+        0.89,
+        0.902,
+        0.882,
+        0.845,
+        0.851
+      ],
+      [
+        1.282,
+        1.272,
+        1.286,
+        1.268,
+        1.209,
+        1.471,
+        1.287,
+        1.442,
+        1.444,
+        1.428,
+        1.335,
+        1.332
+      ]
+    ],
+    "trans": [
+      [
+        0.278,
+        0.285,
+        0.272,
+        0.246,
+        0.276,
+        0.143,
+        0.275,
+        0.138,
+        0.138,
+        0.141,
+        0.192,
+        0.199
+      ],
+      [
+        0.5,
+        0.512,
+        0.501,
+        0.478,
+        0.496,
+        0.372,
+        0.504,
+        0.37,
+        0.367,
+        0.373,
+        0.414,
+        0.422
+      ],
+      [
+        0.34,
+        0.347,
+        0.337,
+        0.314,
+        0.338,
+        0.207,
+        0.337,
+        0.22,
+        0.218,
+        0.227,
+        0.277,
+        0.282
+      ],
+      [
+        0.291,
+        0.298,
+        0.285,
+        0.263,
+        0.289,
+        0.162,
+        0.288,
+        0.161,
+        0.161,
+        0.167,
+        0.212,
+        0.219
+      ],
+      [
+        0.378,
+        0.385,
+        0.377,
+        0.345,
+        0.372,
+        0.231,
+        0.376,
+        0.228,
+        0.226,
+        0.227,
+        0.266,
+        0.277
+      ],
+      [
+        0.352,
+        0.359,
+        0.344,
+        0.322,
+        0.346,
+        0.21,
+        0.349,
+        0.204,
+        0.202,
+        0.206,
+        0.249,
+        0.257
+      ],
+      [
+        0.365,
+        0.372,
+        0.362,
+        0.339,
+        0.363,
+        0.225,
+        0.362,
+        0.245,
+        0.243,
+        0.252,
+        0.302,
+        0.307
+      ],
+      [
+        0.384,
+        0.391,
+        0.383,
+        0.351,
+        0.378,
+        0.237,
+        0.383,
+        0.234,
+        0.231,
+        0.232,
+        0.272,
+        0.283
+      ],
+      [
+        0.49,
+        0.501,
+        0.491,
+        0.472,
+        0.486,
+        0.368,
+        0.491,
+        0.372,
+        0.37,
+        0.375,
+        0.411,
+        0.42
+      ],
+      [
+        0.309,
+        0.315,
+        0.3,
+        0.274,
+        0.305,
+        0.175,
+        0.305,
+        0.169,
+        0.169,
+        0.172,
+        0.215,
+        0.224
+      ],
+      [
+        0.315,
+        0.322,
+        0.306,
+        0.28,
+        0.312,
+        0.175,
+        0.312,
+        0.169,
+        0.169,
+        0.172,
+        0.215,
+        0.224
+      ],
+      [
+        0.378,
+        0.385,
+        0.377,
+        0.346,
+        0.372,
+        0.232,
+        0.377,
+        0.23,
+        0.228,
+        0.229,
+        0.268,
+        0.28
+      ],
+      [
+        0.496,
+        0.507,
+        0.5,
+        0.483,
+        0.492,
+        0.374,
+        0.5,
+        0.383,
+        0.38,
+        0.386,
+        0.421,
+        0.43
+      ],
+      [
+        0.413,
+        0.419,
+        0.411,
+        0.388,
+        0.407,
+        0.281,
+        0.411,
+        0.28,
+        0.277,
+        0.279,
+        0.315,
+        0.328
+      ],
+      [
+        0.457,
+        0.464,
+        0.453,
+        0.428,
+        0.452,
+        0.324,
+        0.456,
+        0.321,
+        0.319,
+        0.322,
+        0.363,
+        0.37
+      ],
+      [
+        0.316,
+        0.323,
+        0.313,
+        0.294,
+        0.314,
+        0.189,
+        0.313,
+        0.196,
+        0.196,
+        0.203,
+        0.248,
+        0.255
+      ]
+    ],
+    "score_min": 0.775,
+    "score_max": 1.538,
+    "trans_min": 0.138,
+    "trans_max": 0.512
+  }
+}

@@ -1,0 +1,1035 @@
+[
+  {
+    "pmid": "39775761",
+    "pmcid": "",
+    "title": "Metformin-encapsulating immunoliposomes conjugated with anti-TROP 2 antibody fragments for the active targeting of triple-negative breast cancer.",
+    "year": "2025",
+    "journal": "Nanoscale",
+    "doi": "10.1039/d4nr03224a",
+    "authors": "Vozgirdaite; Allard-Vannier; Velge-Roussel; Douez; Jolivet",
+    "abstract": "Trophoblast cell-surface antigen 2 (TROP 2) has re-emerged as a promising biomarker in triple-negative breast cancer (TNBC), with high overexpression in many TNBC cases. However, despite its potential and approval as an antibody-drug-conjugate for TNBC treatment, TROP 2-targeted delivery systems are currently underexplored. Therefore, this study was aimed at exploiting the potential of TROP 2 targeting by encapsulating metformin (Met), an antidiabetic drug associated with tumor growth inhibitory properties, inside liposomes decorated with TROP 2-targeting single-chain variable fragments (scFvs). The optimization of scFv grafting resulted in Met-immunoliposomes with an average diameter of less than 200 nm, low polydispersity index (∼0.1), negative surface charge (<-10 mV), high Met drug loading (>150 mg g-1), and high affinity towards TROP 2 binding. Furthermore, Met-immunoliposomes were reproducible, and the scFv conjugation was stable in the presence of serum for five days. Their cellular uptake increased 4 folds in two-dimensional and 9 folds in three-dimensional TNBC models owing to the high affinity towards TROP 2 binding. Finally, it was observed that the therapeutic effect of Met in suppressing cancer cell growth and proliferation was superior when using anti-TROP 2 scFv-grafted Met-immunoliposomes, which completely stopped the spheroid growth and inhibited the expression of adenosine triphosphate. This study is one of the first reports to explore the combination of nanoparticle-based drug delivery systems to target the TROP 2 protein in TNBC, and to the best of our knowledge, this is the first report to specifically combine the use of scFvs with TROP 2 targeting to deliver therapeutics for TNBC treatment.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "39855443",
+    "pmcid": "",
+    "title": "Exploiting novel placental homing peptides for targeted drug delivery in breast cancer.",
+    "year": "2025",
+    "journal": "Nanomedicine : nanotechnology, biology, and medicine",
+    "doi": "10.1016/j.nano.2025.102805",
+    "authors": "Alobaid; Aojula; Campbell; Harris",
+    "abstract": "More effective drug formulations are needed to increase the selectivity and efficacy of available chemotherapeutics. We have previously shown that nanoparticles decorated with the tumour homing peptide CGKRK can selectively deliver payloads to the placenta. In this study, we investigated whether two novel placental homing peptides NKGLRNK (NKG) and RSGVAKS (RSG) can be utilized to selectively deliver doxorubicin (DOX) to breast cancer cells. Fluorescence microscopy and flow cytometry showed that NKG and RSG bind to and accumulate in MDA-MB-231 and MCF-7 cells in a time-dependent manner, to a similar extent as CGKRK, but accumulate in healthy MCF-10A cells to a much lesser degree. NKG- and RSG-decorated liposomes facilitated equivalent delivery of DOX to MDA-MB-231 and MCF-7 cells, with a comparable efficacy to CGKRK-decorated liposomes. These findings suggest that NKG and RSG represent novel breast tumour-binding sequences that could be utilized to develop more efficacious targeted breast cancer therapies.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "40114400",
+    "pmcid": "",
+    "title": "An update on nanoformulations with FDA approved drugs for female reproductive cancer.",
+    "year": "2025",
+    "journal": "Journal of microencapsulation",
+    "doi": "10.1080/02652048.2025.2474457",
+    "authors": "Raj; Meena; Seth; Mathur; Luqman",
+    "abstract": "Female reproductive cancers, including ovarian, cervical, breast, gestational trophoblastic and endometrial cancer, present significant challenges in therapy and patient prognosis. Conventional chemotherapy often lacks selectivity, leading to systemic toxicity and reduced treatment efficacy. Nanotechnology has emerged as a promising approach to improve drug delivery and therapeutic outcomes. Encapsulation of FDA-approved drugs within nanocarriers such as liposomes, polymeric nanoparticles, and lipid nanoparticles enables controlled drug release, reduces off-target effects, and enhances drug accumulation at tumor sites. This targeted delivery minimizes damage to healthy tissues and improves patient survival rates. Additionally, nanoformulations facilitate combination therapy, overcoming drug resistance and maximizing therapeutic efficacy. Despite promising results, challenges like scalability, reproducibility, and regulatory approvals hinder widespread clinical applications. Developing personalized nanoformulations tailored to individual patient profiles offers potential for precision cancer therapy. This study explores the role of nanoformulations in enhancing the therapeutic potential of FDA-approved drugs for treating female reproductive cancers.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "40468957",
+    "pmcid": "PMC10826899",
+    "title": "[Research progress on lipid nanoparticle messenger RNA delivery system].",
+    "year": "2025",
+    "journal": "Zhejiang da xue xue bao. Yi xue ban = Journal of Zhejiang University. Medical sciences",
+    "doi": "10.3724/zdxbyxb-2024-0709",
+    "authors": "He; Liu",
+    "abstract": "Messenger RNA (mRNA) therapeutics involve delivering in vitro transcribed mRNA into specific cells to produce target proteins for the treatment or prevention of diseases. However, the development of mRNA therapeutics relies largely on mRNA delivery systems. Lipid nanoparticles (LNPs) represent the most widely used mRNA carriers in clinical applications. Composed of ionizable lipids, zwitterionic phospholipids, cholesterol, and polyethylene glycol-lipids, LNPs can address critical challenges in mRNA drug development, such as poor in vivo stability and the difficulty in crossing biological barriers. Ultimately, LNPs enable safe, efficient, and targeted mRNA delivery to the liver, lung, spleen, and other organs. This review outlines the roles of the four lipid components in LNPs for mRNA delivery. It then introduces targeted mRNA delivery to various organs/tissues such as the liver, lung, spleen, pancreas, bone marrow, and placenta, using strategies such as antibody modification, lipid structure alteration, and specialized administration routes. Additionally, this review discusses the applications and challenges of LNP-based mRNA therapeutics in disease treatment, aiming to provide insights for the clinical translation of mRNA therapies and for further innovations in LNP delivery systems.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "38745536",
+    "pmcid": "",
+    "title": "Placental Drug Delivery to Treat Pre-Eclampsia and Fetal Growth Restriction.",
+    "year": "2024",
+    "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+    "doi": "10.1002/smll.202311165",
+    "authors": "Deepak; El-Balawi; Harris",
+    "abstract": "Pre-eclampsia and fetal growth restriction (FGR) continue to cause unacceptably high levels of morbidity and mortality, despite significant pharmaceutical and technological advances in other disease areas. The recent pandemic has also impacted obstetric care, as COVID-19 infection increases the risk of poor pregnancy outcomes. This review explores the reasons why it lacks effective drug treatments for the placental dysfunction that underlies many common obstetric conditions and describes how nanomedicines and targeted drug delivery approaches may provide the solution to the current drug drought. The ever-increasing range of biocompatible nanoparticle formulations available is now making it possible to selectively deliver drugs to uterine and placental tissues and dramatically limit fetal drug transfer. Formulations that are refractory to placental uptake offer the possibility of retaining drugs within the maternal circulation, allowing pregnant individuals to take medicines previously considered too harmful to the developing baby. Liposomes, ionizable lipid nanoparticles, polymeric nanoparticles, and adenoviral vectors have all been used to create efficacious drug delivery systems for use in pregnancy, although each approach offers distinct advantages and limitations. It is imperative that recent advances continue to be built upon and that there is an overdue investment of intellectual and financial capital in this field.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "39065547",
+    "pmcid": "PMC8727453",
+    "title": "An Overview on the Physiopathology of the Blood-Brain Barrier and the Lipid-Based Nanocarriers for Central Nervous System Delivery.",
+    "year": "2024",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics16070849",
+    "authors": "Susa; Arpicco; Pirri; Limongi",
+    "abstract": "The state of well-being and health of our body is regulated by the fine osmotic and biochemical balance established between the cells of the different tissues, organs, and systems. Specific districts of the human body are defined, kept in the correct state of functioning, and, therefore, protected from exogenous or endogenous insults of both mechanical, physical, and biological nature by the presence of different barrier systems. In addition to the placental barrier, which even acts as a linker between two different organisms, the mother and the fetus, all human body barriers, including the blood-brain barrier (BBB), blood-retinal barrier, blood-nerve barrier, blood-lymph barrier, and blood-cerebrospinal fluid barrier, operate to maintain the physiological homeostasis within tissues and organs. From a pharmaceutical point of view, the most challenging is undoubtedly the BBB, since its presence notably complicates the treatment of brain disorders. BBB action can impair the delivery of chemical drugs and biopharmaceuticals into the brain, reducing their therapeutic efficacy and/or increasing their unwanted bioaccumulation in the surrounding healthy tissues. Recent nanotechnological innovation provides advanced biomaterials and ad hoc customized engineering and functionalization methods able to assist in brain-targeted drug delivery. In this context, lipid nanocarriers, including both synthetic (liposomes, solid lipid nanoparticles, nanoemulsions, nanostructured lipid carriers, niosomes, proniosomes, and cubosomes) and cell-derived ones (extracellular vesicles and cell membrane-derived nanocarriers), are considered one of the most successful brain delivery systems due to their reasonable biocompatibility and ability to cross the BBB. This review aims to provide a complete and up-to-date point of view on the efficacy of the most varied lipid carriers, whether FDA-approved, involved in clinical trials, or used in in vitro or in vivo studies, for the treatment of inflammatory, cancerous, or infectious brain diseases.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "29783118",
+    "pmcid": "",
+    "title": "Placenta-derived mesenchymal stromal cells and their exosomes exert therapeutic effects in Duchenne muscular dystrophy.",
+    "year": "2018",
+    "journal": "Biomaterials",
+    "doi": "10.1016/j.biomaterials.2018.04.055",
+    "authors": "Bier; Berenstein; Kronfeld; Morgoulis; Ziv-Av",
+    "abstract": "Duchenne muscular dystrophy (DMD) is a degenerative lethal, X-linked disease of skeletal and cardiac muscles caused by mutations in the dystrophin gene. Cell therapy using different cell types, including mesenchymal stromal cells (MSCs), has been considered as a potential approach for the treatment of DMD. MSCs can be obtained from autologous sources such as bone marrow and adipose tissues or from allogeneic placenta and umbilical cord. The safety and therapeutic impact of these cells has been demonstrated in pre-clinical and clinical studies and their functions are attributed to paracrine effects that are mediated by secreted cytokines and extracellular vesicles. Here, we studied the therapeutic effects of placenta-derived MSCs (PL-MSCs) and their secreted exosomes using mouse and human myoblasts from healthy controls, Duchenne patients and mdx mice. Treatment of myoblasts with conditioned medium or exosomes secreted by PL-MSCs increased the differentiation of these cells and decreased the expression of fibrogenic genes in DMD patient myoblasts. In addition, these treatments also increased the expression of utrophin in these cells. Using a quantitative miR-29c reporter, we demonstrated that the PL-MSC effects were partly mediated by the transfer of exosomal miR-29c. Intramuscular transplantation of PL-MSCs in mdx mice resulted in decreased creatine kinase levels. PL-MSCs significantly decreased the expression of TGF-β and the level of fibrosis in the diaphragm and cardiac muscles, inhibited inflammation and increased utrophin expression. In vivo imaging analyses using MSCs labeled with gold nanoparticles or fluorescent dyes demonstrated localization of the cells in the muscle tissues up to 3 weeks post treatment. Altogether, these results demonstrate that PL-MSCs and their secreted exosomes have important clinical applications in cell therapy of DMD partly via the targeted delivery of exosomal miR-29c.",
+    "relevance": 9,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "27386551",
+    "pmcid": "PMC2840526",
+    "title": "Tumor-homing peptides as tools for targeted delivery of payloads to the placenta.",
+    "year": "2016",
+    "journal": "Science advances",
+    "doi": "10.1126/sciadv.1600349",
+    "authors": "King; Ndifon; Lui; Widdows; Kotamraju",
+    "abstract": "The availability of therapeutics to treat pregnancy complications is severely lacking mainly because of the risk of causing harm to the fetus. As enhancement of placental growth and function can alleviate maternal symptoms and improve fetal growth in animal models, we have developed a method for targeted delivery of payloads to the placenta. We show that the tumor-homing peptide sequences CGKRK and iRGD bind selectively to the placental surface of humans and mice and do not interfere with normal development. Peptide-coated nanoparticles intravenously injected into pregnant mice accumulated within the mouse placenta, whereas control nanoparticles exhibited reduced binding and/or fetal transfer. We used targeted liposomes to efficiently deliver cargoes of carboxyfluorescein and insulin-like growth factor 2 to the mouse placenta; the latter significantly increased mean placental weight when administered to healthy animals and significantly improved fetal weight distribution in a well-characterized model of fetal growth restriction. These data provide proof of principle for targeted delivery of drugs to the placenta and provide a novel platform for the development of placenta-specific therapeutics.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "25877087",
+    "pmcid": "",
+    "title": "Biomedical applications of gold nanoparticles.",
+    "year": "2015",
+    "journal": "Current topics in medicinal chemistry",
+    "doi": "",
+    "authors": "Cabuzu; Cirja; Puiu; Grumezescu",
+    "abstract": "Gold nanoparticles may be used in different domains, one of most important being the biomedical field. They have suitable properties for controlled drug delivery, cancer treatment, biomedical imaging, diagnosis and many others, due to their excellent compatibility with the human organism, low toxicity and tunable stability, small dimensions, and possibility to interact with a variety of substances. They also have optical properties, being able to absorb infrared light. Moreover, due to their large surface and the ability of being coated with a variety of therapeutic agents, gold nanoparticles have been showed a great potential to be used as drug delivery systems. Gold nanoparticles are intensively studied in biomedicine, and recent studies revealed the fact that they can cross the blood-brain barrier, may interact with the DNA and produce genotoxic effects. Because of their ability of producing heat, they can target and kill the tumors, being used very often in photodynamic therapy. Gold nanoparticles can be synthesized in many ways, but the most common are the biological and chemical methods, however the chemical method offers the advantage of better controlling the size and shape of the nanoparticles. In this review, we present the principal applications of gold nanoparticles in the biomedical field, like cancer treatment, amyloid-like fibrillogenesis inhibitors, transplacental treatment, the development of specific scaffolds and drug delivery systems.",
+    "relevance": 9,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "11420642",
+    "pmcid": "",
+    "title": "Angiographically guided utero-placental gene transfer in rabbits with adenoviruses, plasmid/liposomes and plasmid/polyethyleneimine complexes.",
+    "year": "2001",
+    "journal": "Gene therapy",
+    "doi": "",
+    "authors": "Heikkilä; Hiltunen; Turunen; Keski-Nisula; Turunen",
+    "abstract": "We examined the feasibility of gene transfer to rabbit placenta using adenoviruses, plasmid/liposomes and plasmid/polyethyleneimine (PEI) complexes. Pregnant New Zealand White rabbits (n = 17) were anesthetized and local gene transfer was done via a catheter inserted in uterine arteries under direct angiographic control. Either nuclear targeted LacZ adenoviruses (1.0 x 10(10) p.f.u.), nuclear targeted LacZ plasmid (500 microg)/liposome (DOTMA:DOPE 1:1) complexes or nuclear targeted LacZ plasmid (250 microg)/PEI (25 kDa) complexes (charge ratio +/-4) were used. Animals were killed 3 days later and detection of the transgene expression was done by X-gal staining and RT-PCR. Adenovirus-mediated gene transfer resulted in a high transfection efficiency (34 +/- 10%) in placental trophoplastic cells. Very little, if any, transfection was seen in fetal membranes. Plasmid/liposomes and plasmid/PEI complexes led to a very low (<0.01%) transfection efficiency in trophoblastic cells, but some transfection was seen in fetal membranes. A total of 25 fetuses were analyzed for the presence of transgene at the time of death. In most fetuses expression of the LacZ gene was below the sensitivity of the X-gal staining, but expression was detected by PCR in 50%, 50% and 42% of the analyzed fetuses after adenoviral, plasmid/PEI and plasmid/liposome gene transfer, respectively. No major inflammatory changes were present in the transfected placentas as analyzed by general histology and macrophage- and T cell-specific immunostainings. We conclude that catheter-mediated intravascular gene transfer with adenoviruses can be used for the transfection of placental trophoplastic cells, but plasmid complexes are inefficient for this purpose. However, selective angiographically guided gene transfer also led to leakage of the vector to fetuses. Therefore, if gene therapy is developed for the treatment of placental disorders, the gene-vector combination should not be harmful to the fetus and the expression of the transgene should only occur in placenta.",
+    "relevance": 9,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "41597697",
+    "pmcid": "PMC10746179",
+    "title": "Hepatitis E ORF2 Blocks Trophoblast Autophagy to Induce Miscarriage via LC3B Binding Rather than PI3K/Akt/mTOR Pathway Suppression.",
+    "year": "2026",
+    "journal": "Microorganisms",
+    "doi": "10.3390/microorganisms14010181",
+    "authors": "Chen; Yang; Bai; Tian; Zhou",
+    "abstract": "Hepatitis E virus (HEV) is a zoonotic pathogen that can infect pregnant women and cause adverse pregnancy outcomes, including miscarriage and preterm delivery. The previous study demonstrated that HEV genotype 3 (HEV-3) inhibits complete autophagic flux in both mouse placental tissue and human trophoblast cells (JEG-3), evidenced by reduced expression of ATG proteins (including LC3, Beclin1, ATG4B, ATG5, and ATG9A) and accumulation of p62. However, the specific regulatory pathway involved remains unclear. Thus, eukaryotic expression vectors for HEV open reading frames (ORFs) were constructed, and ORF2 and ORF3 proteins were transiently overexpressed in JEG-3 cells via liposome transfection. While both ORF2 and ORF3 significantly reduced LC3B protein levels (p < 0.01), only ORF2 induced p62 accumulation (p < 0.01), indicative of autophagic inhibition, which indicates that ORF2 was the key viral protein mediating autophagy suppression in JEG-3. The results of WB and RT-qPCR showed that ORF2 suppressed the PI3K/Akt/mTOR pathway while enhancing nuclear translocation of TFEB (p < 0.01) and AMPK phosphorylation (p < 0.01), suggesting paradoxical activation of upstream autophagy regulators. Through co-transfection of mCherry-LC3 with ORF2, co-localization studies, and AlphaFold 3-based intermolecular interaction predictions, we propose that ORF2 directly binds LC3B to block autophagosome formation. Finally, co-immunoprecipitation confirmed physical interaction between HEV ORF2 and LC3B, elucidating the molecular mechanism of HEV-induced autophagy suppression in trophoblasts. These findings reveal the molecular mechanism by which HEV inhibits autophagy leading to miscarriage in mice, providing new insights into HEV-induced reproductive damage.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "41807717",
+    "pmcid": "10726372",
+    "title": "Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders.",
+    "year": "2026",
+    "journal": "Nature protocols",
+    "doi": "10.1038/s41596-025-01325-7",
+    "authors": "Swingle; Mitchell",
+    "abstract": "Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders. In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and reproductive health.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "40070242",
+    "pmcid": "",
+    "title": "Placental targeted drug delivery: a review of recent progress.",
+    "year": "2025",
+    "journal": "Nanoscale",
+    "doi": "10.1039/d4nr05338a",
+    "authors": "Wang; Mu; Zhang; Zheng; Zhu",
+    "abstract": "The placenta plays a crucial role in mediating nutrient and gas exchange between the mother and fetus during pregnancy. Targeting therapeutic agents to the placenta presents significant opportunities for treating placental disorders and enhancing fetal outcomes. However, the unique structural complexity and selective permeability of the placenta pose substantial challenges for effective drug delivery. This review provides a comprehensive overview of current strategies for placental targeting, including lipid nanoparticle (LNP) delivery systems, targeted peptide modifications, specific antibody targeting of placental receptors, and the use of viral vectors. We critically analyze the advantages and limitations of each approach, emphasizing recent advancements in enhancing targeting specificity and delivery efficiency. By consolidating the latest research developments, this review aims to foster further innovation in placental drug delivery methods and contribute significantly to the advancement of therapeutic strategies for placental disorders, ultimately improving outcomes for both mother and fetus.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "41160265",
+    "pmcid": "11319408",
+    "title": "Nanotechnology in placental cancers: advances in targeted therapy and non-invasive diagnostics.",
+    "year": "2025",
+    "journal": "Medical oncology (Northwood, London, England)",
+    "doi": "10.1007/s12032-025-03096-3",
+    "authors": "Barik; Acharya",
+    "abstract": "Placental cancers are rare but aggressive diseases that require urgent intervention while presenting unique challenges during pregnancy. The presence of a developing fetus limits the use of conventional diagnostic tools and therapeutic options. Standard chemotherapy poses risks of teratogenicity and fetal toxicity, especially in early gestation. Nanotechnology offers a promising alternative by enabling targeted and safer treatment strategies. Nanocarriers such as liposomes, polymeric nanoparticles, dendrimers, and exosome mimetics have been developed to deliver therapeutic agents directly to tumor sites with minimal off-target effects. These systems improve drug solubility, control release profiles, and reduce systemic exposure. Functionalization with tumor-specific ligands allows precise targeting of trophoblastic cells, which is especially valuable in treating chemoresistant tumors like placental site trophoblastic tumor and epithelioid trophoblastic tumor. In addition, nanotechnology-based biosensors and imaging agents enhance early detection and monitoring by identifying key placental biomarkers at low concentrations. Techniques such as multiplexed detection platforms, smart nanoprobes, and liquid biopsy supported by nanoparticle enrichment offer noninvasive and rapid diagnostic alternatives during pregnancy. Despite encouraging preclinical results, challenges remain regarding placental transport, long-term biocompatibility, and ethical concerns for use in pregnant populations. This review consolidates the current landscape of nanotechnology applications in placental cancer and proposes future directions for research and clinical translation.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "38019400",
+    "pmcid": "4928982",
+    "title": "Liposome-Encapsulated Anti-inflammatory Proteins for Targeted Delivery to the Placenta to Treat Fetal Growth Restriction.",
+    "year": "2024",
+    "journal": "Methods in molecular biology (Clifton, N.J.)",
+    "doi": "10.1007/978-1-0716-3495-0_14",
+    "authors": "Murthi; Harris",
+    "abstract": "Fetal growth restriction (FGR), the failure of a fetus to reach its genetically determined growth potential, is a serious complication affecting up to 10% of pregnancies. FGR is a major risk factor for stillbirth and, in the survivors, neurodevelopmental disorders. We have recently identified that the anti-inflammatory and pro-resolving molecule, lipoxin A4 (LXA4) and its soluble receptor, formyl-peptide receptor-2 (FPR-2) are significantly decreased in human placentas from FGR pregnancy. The LXA4 synthetic analog Compound 43 (C43) is considered a safe, anti-inflammatory therapy and is being developed as a treatment for disease conditions with an inflammatory basis, for example, asthma in children. Identification of therapies to treat FGR in utero comes with the need to mitigate their potential side effects and the use of nanoparticle-mediated delivery systems could facilitate this. Our current studies are focused on targeting the resolution of inflammation observed in FGR placentas, by synthesizing liposome-encapsulated C43 as a novel therapeutic to improve placental function in FGR. In this chapter, we provide a detailed methodological procedure for the preparation of liposomes and conjugation of the peptide sequences, which selectively bind to the outer placental syncytiotrophoblast layer or the vascular endothelium of the uterine spiral arterioles.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "38019401",
+    "pmcid": "4477795",
+    "title": "Trophoblast-Targeted Liposomes for Placenta-Specific Drug Delivery.",
+    "year": "2024",
+    "journal": "Methods in molecular biology (Clifton, N.J.)",
+    "doi": "10.1007/978-1-0716-3495-0_15",
+    "authors": "Zhang; Fan; Nayak",
+    "abstract": "A major challenge in developing potential treatments for pregnancy complications is minimizing adverse effects to the fetus and mother. Placenta-targeted drug delivery could reduce the risks of drug treatments in pregnancy by targeting tissue where most pregnancy complications originate and decreasing dosages. We previously developed a tool for the targeted delivery of drug-carrying nanoparticles to the placenta using a synthetic placental chondroitin sulfate A-binding peptide (plCSA-BP) derived from the malarial protein VAR2CSA, which binds a distinct type of chondroitin sulfate A (CSA) exclusively expressed by placental trophoblasts. Liposomes are a type of nanoparticle already approved for use in humans by the Food and Drug Administration (FDA) and used successfully for the treatment of a wide range of diseases. Here, we present a detailed method to create plCSA-BP-decorated liposomes that can be used to deliver drugs specifically to placental trophoblasts. Liposomes are first generated by the standard film method and then conjugated to plCSA-BPs using the 1-ethyl-3-(3-dimethylaminopropyl) carbodiimide hydrochloride/N-hydroxysulfosuccinimide (EDC/NHS) bioconjugate technique. This protocol may facilitate bench-to-bedside translation of drug discovery for the treatment of pregnancy disorders by reducing risks of side effects, and enabling rapid and scalable production.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "39016060",
+    "pmcid": "PMC8948502",
+    "title": "Therapeutic effect of E-Lip-siRNA-sFlt1 on pre-eclampsia: targeted gene silencing and improved pregnancy outcomes.",
+    "year": "2024",
+    "journal": "Nanomedicine (London, England)",
+    "doi": "10.1080/17435889.2024.2368449",
+    "authors": "Dong; Zhang; Zhou; Mao; Tang",
+    "abstract": "Aim: To evaluate a liposome complex conjugated with anti-epidermal growth factor receptor (EGFR) antibodies for the treatment of pre-eclampsia (PE).Methods: In in vitro experiments, the transfection rate, silencing effect and cytotoxicity were determined. In the in vivo PE model, the siRNA distribution, mean arterial pressure, 24-h urine protein concentration, serum sFlt1 concentration, number of viable fetuses and placental weight were measured.Results: The nanomedicine effectively reduced the expression of sFIt1 and had a strong ability to target placental tissues. It could significantly reduce the symptoms of pre-eclampsia and improve pregnancy outcomes in PE model rats.Conclusion: The constructed nanomedicine can improve pregnancy outcomes in a rat model of pre-eclampsia and provides a new strategy for the treatment of pre-eclampsia.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "39839550",
+    "pmcid": "PMC9992266",
+    "title": "Assessing gut barrier integrity and reproductive performance following pre-mating oral administration of solid-lipid-nanoparticles designed for drug delivery.",
+    "year": "2024",
+    "journal": "Frontiers in toxicology",
+    "doi": "10.3389/ftox.2024.1508598",
+    "authors": "Lacconi; Massimiani; Antonello; Gasco; Bernardini",
+    "abstract": "Solid lipid nanoparticles (SLNs) have gained interest as drug delivery carriers due to their efficient cellular internalization and increased therapeutic effect of the loaded drug, with minimal side effects. Although recently several studies have shown the possibility to administer SLNs during pregnancy to vehicle mRNA to the placenta, data about the effect of premating exposure to SLNs on pregnancy outcome are scant. Considering that assumption of drug-delivering nanocarriers in reproductive age may potentially affect women's reproductive health, the aim of the present study was to evaluate whether repeated oral administration of SLNs to female mice prior to mating would influence key pregnancy outcomes. For this purpose, SLNs melatonin loaded (SLN + mlt) or unloaded were orally administered to CD1 female mice at two different dosages-low (7.5 mg/kg) and high (750 mg/kg) -three times a week for 6 weeks. Females mice were mated and pregnancy was monitored from conception to delivery. All the assessed pregnancy parameters, including time to pregnancy, pregnancy duration, litter size, and the presence of any gross anomalies in the pups, and maternal key biochemical parameters were not significantly affected by SLN administration. Embryonic development was also evaluated and no effects on the number of implantation sites, fetus numbers, incidence of fetal resorptions, and measurements of crown-rump length, as well as fetal and placental weights, were observed in the treated mothers. The impact of SLNs on maternal intestinal barrier integrity and inflammation was assessed both in vivo in mice and in vitro using an intestinal epithelial barrier model by qRT-PCR. Results showed that unloaded SLNs, but not the SLN + mlt, affected intestinal barrier integrity. Although variation in the expression of inflammatory cytokines was recorded, this did not reflect in significant histological alterations and the integrity of the intestinal barrier was maintained. The in vitro model further confirmed the biocompatibility of SLNs, showing that both loaded and unloaded SLNs did not affect the integrity of the simulated intestinal epithelial barrier. In conclusion, these data suggest that administering SLNs, as a drug delivery vehicle, prior to conception does not affect either maternal health or fetal development, posing no risk to future pregnancy.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "37330012",
+    "pmcid": "",
+    "title": "Nanomedicines: An approach to treat placental insufficiency and the current challenges.",
+    "year": "2023",
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "doi": "10.1016/j.jconrel.2023.06.003",
+    "authors": "van Kammen; van Woudenberg; Schiffelers; Terstappen; Lely",
+    "abstract": "INTRODUCTION: Preeclampsia and fetal growth restriction are common pregnancy complications that significantly impact perinatal health and offspring development later in life. The origin of these complex syndromes overlap in placental insufficiency. Progress in developing treatments for maternal, placental or fetal health is mainly limited by the risk of maternal and fetal toxicity. Nanomedicines are a promising approach to safely treat pregnancy complications since they can regulate drug interaction with the placenta to enhance efficacy of the treatment while minimizing exposure of the fetus. METHODS: This narrative review discusses the current developments and challenges of nanomedicines during pregnancy with a focus on preclinical models of placenta insufficiency syndromes. Firstly, we outline the safety requirements and potential therapeutic maternal and placental targets. Secondly, we review the prenatal therapeutic effects of the nanomedicines that have been tested in experimental models of placental insufficiency syndromes. RESULTS: The majority of liposomes and polymeric drug delivery system show promising results regarding the prevention of trans-placental passage nanomedicines in uncomplicated and complicated pregnancies. The others two studied classes, quantum dots and silicon nanoparticles, have been investigated to a limited extent in placental insufficiency syndromes. Characteristics of the nanoparticles such as charge, size, and timing of administration have been shown to influence the trans-placental passage. The few available preclinical therapeutic studies on placental insufficiency syndromes predominantly show beneficial effects of nanomedicines on both maternal and fetal health, but demonstrate contradicting results on placental health. Interpretation of results in this field is complicated by the fact that results are influenced by the choice of animal species and model, gestational age, placental maturity and integrity, and nanoparticle administration route. CONCLUSION: Nanomedicines form a promising therapeutic approach during (complicated) pregnancies mainly by reducing fetal toxicity and regulating drug interaction with the placenta. Different nanomedicines have been proven to effectively prevent trans-placental passage of encapsulated agents. This can be expected to dramatically reduce risks for fetal adverse effects. Furthermore, a number of these nanomedicines positively impacted maternal and fetal health in animal models for placental insufficiency. Demonstrating that effective drug concentrations can be reached in the target tissue. While these first animal studies are encouraging, more research is needed to better understand the influence of the pathophysiology of this multi-factorial disease before implementation in clinical practice can be considered. Therefore, extensive evaluation of safety and efficacy of these targeted nanoparticles is needed within multiple animal, in vitro, and/or ex vivo models. This may be complemented by diagnostic tools to assess the disease status to identify the best time to initiate treatment. Together these investigations should contribute to building confidence in the safety of nanomedicines for treating mother and child, as safety has, understandably, the highest priority in this sensitive patient groups.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "36354563",
+    "pmcid": "PMC5516438",
+    "title": "Placenta-Targeted Nanoparticles Loaded with PFKFB3 Overexpression Plasmids Enhance Angiogenesis and Placental Function.",
+    "year": "2022",
+    "journal": "Bioengineering (Basel, Switzerland)",
+    "doi": "10.3390/bioengineering9110652",
+    "authors": "Li; Liu; Liu; Zhang; Liu",
+    "abstract": "Placental angiogenesis disorder and placental dysplasia are important causes of many pregnancy complications. Due to safety and economic benefits, effective treatment strategies are currently limited. PFKFB3 is a key regulator of glycolysis that controls angiogenesis through a metabolic pathway independent of genetic signals. In this study, we constructed the nanodrug T-NPPFKFB3 and explored its feasibility to promote angiogenesis and enhance placental function. First, liposomes containing PFKFB3 overexpression plasmids modified by the placental homing peptide CGKRK were synthesized by the thin film method. In vivo experiments revealed that T-NPPFKFB3 injected intravenously specifically accumulated in the mouse placenta and therein upregulated the expression of PFKFB3 without affecting its expression in other important organs. In addition, T-NPPFKFB3 promoted placental angiogenesis and increased the fetal and placental weights of the mice. Finally, we evaluated the safety of T-NPPFKFB3. The expression levels of ALS/AST/BUN in the sera of pregnant mice were not significantly different from those in the sera of control group mice. However, T-NPPFKFB3 did not cause obvious fetal abnormalities or alter the average litter size. In conclusion, T-NPPFKFB3 can specifically target the placenta, promote angiogenesis, and enhance placental function without obvious side effects. Therefore, it has potential as a new strategy for the treatment of pregnancy complications.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "34067883",
+    "pmcid": "PMC5487289",
+    "title": "Gold Nanoparticles Affect Pericyte Biology and Capillary Tube Formation.",
+    "year": "2021",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics13050738",
+    "authors": "Looprasertkul; Sereemaspun; Kitkumthorn; Sooklert; Sarachana",
+    "abstract": "Gold nanoparticles (AuNPs) are used for diagnostic and therapeutic purposes, especially antiangiogenesis, which are accomplished via inhibition of endothelial cell proliferation, migration, and tube formation. However, no research has been performed on the effects of AuNPs in pericytes, which play vital roles in endothelial cell functions and capillary tube formation during physiological and pathological processes. Therefore, the effects of AuNPs on the morphology and functions of pericytes need to be elucidated. This study treated human placental pericytes in monoculture with 20 nm AuNPs at a concentration of 30 ppm. Ki-67 and platelet-derived growth factor receptor-β (PDGFR-β) mRNA expression was measured using real-time reverse transcription-quantitative polymerase chain reaction (RT-qPCR). Cell migration was assessed by Transwell migration assay. The fine structures of pericytes were observed by transmission electron microscopy. In addition, 30 ppm AuNP-treated pericytes and intact human umbilical vein endothelial cells were cocultured on Matrigel to form three-dimensional (3D) capillary tubes. The results demonstrated that AuNPs significantly inhibited proliferation, reduced PDGFR-β mRNA expression, and decreased migration in pericytes. Ultrastructural analysis of pericytes revealed AuNPs in late endosomes, autolysosomes, and mitochondria. Remarkably, many mitochondria were swollen or damaged. Additionally, capillary tube formation was reduced. We found that numerous pericytes on 3D capillary tubes were round and did not extend their processes along the tubes, which resulted in more incomplete tube formation in the treatment group compared with the control group. In summary, AuNPs can affect pericyte proliferation, PDGFR-β mRNA expression, migration, morphology, and capillary tube formation. The findings highlight the possible application of AuNPs in pericyte-targeted therapy for antiangiogenesis.",
+    "relevance": 8,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "34440429",
+    "pmcid": "PMC7452941",
+    "title": "Novel Technologies for Target Delivery of Therapeutics to the Placenta during Pregnancy: A Review.",
+    "year": "2021",
+    "journal": "Genes",
+    "doi": "10.3390/genes12081255",
+    "authors": "Pepe; Albrecht",
+    "abstract": "Uterine spiral artery remodeling is essential for placental perfusion and fetal growth and, when impaired, results in placental ischemia and pregnancy complications, e.g., fetal growth restriction, preeclampsia, premature birth. Despite the high incidence of adverse pregnancies, current treatment options are limited. Accordingly, research has shifted to the development of gene therapy technologies that provide targeted delivery of \"payloads\" to the placenta while limiting maternal and fetal exposure. This review describes the current strategies, including placental targeting peptide-bound liposomes, nanoparticle or adenovirus constructs decorated with specific peptide sequences and placental gene promoters delivered via maternal IV injection, directly into the placenta or the uterine artery, as well as noninvasive site-selective targeting of regulating genes conjugated with microbubbles via contrast-enhanced ultrasound. The review also provides a perspective on the effectiveness of these technologies in various animal models and their practicability and potential use for targeted placental delivery of therapeutics and genes in adverse human pregnancies affected by placental dysfunction.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "30277306",
+    "pmcid": "",
+    "title": "Exosomes from human placenta purified by affinity chromatography on sepharose bearing immobilized antibodies against CD81 tetraspanin contain many peptides and small proteins.",
+    "year": "2018",
+    "journal": "IUBMB life",
+    "doi": "10.1002/iub.1928",
+    "authors": "Burkova; Dmitrenok; Bulgakov; Vlassov; Ryabchikova",
+    "abstract": "Exosomes are nanovesicles (40-100 nm) containing various RNAs and different proteins. Exosomes are involved in intracellular communication and immune system function. Exosomes from different sources are usually isolated using standard methods-centrifugation and ultracentrifugations. Exosomes isolated by these procedures were reported to contain from a few dozen to thousands of different proteins. Here crude vesicle preparations from five placentas (normal pregnancy) were first obtained using standard centrifugation procedures. According to electron-microscopic studies, these preparations contained vesicles of different size (30-225 nm), particles of round shape of average electron density (\"nonvesicles\" 20-40 nm) (A), structured clusters of associated proteins and shapeless aggregations (B), as well as ring-shaped 10-14 nm structures formed by ferritin (C). After additional purification of the vesicle preparations by gel filtration on Sepharose 4B, the main part of protein structures was removed; however, the preparations still contained small admixtures of components A-C. Further purification of the preparations by affinity chromatography on Sepharose bearing immobilized antibodies against exosome surface protein CD81 led to isolation of highly purified exosomes (40-100 nm). These exosomes according to electron microscopy data contained tetraspanin embedded in the membrane, which was stained with antibodies against CD81 conjugated with 10-12 nm gold nanoparticles. SDS-PAGE and MALDI MS and MS/MS mass spectrometry of tryptic hydrolysates of proteins contained in these exosomes revealed eleven major proteins (>10 kDa): hemoglobin subunits, CD81, interleukin-1 receptor, annexin A5, cytoplasmic actin, alpha-actin-4, alkaline phosphatase, human serum albumin, serotransferrin, and lactotrasferrin. Using MALDI mass analysis of the highly purified exosomes, we for the first time found that in addition to the large proteins (>10 kDa), exosomes having affinity to CD81 contain more than 27 different peptides and small proteins of 2-10 kDa. This finding can be useful for revealing biological functions of pure exosomes. © 2018 IUBMB Life, 70(11):1144-1155, 2018.",
+    "relevance": 8,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "28584334",
+    "pmcid": "",
+    "title": "[Nanogold - Biological effects and occupational exposure levels].",
+    "year": "2017",
+    "journal": "Medycyna pracy",
+    "doi": "10.13075/mp.5893.00538",
+    "authors": "Świdwińska-Gajewska; Czerczak",
+    "abstract": "Nanogold has different properties and biological activity compared to metallic gold. It can be applied in many fields, such as medicine, laboratory diagnostics and electronics. Studies on laboratory animals show that nanogold can be absorbed by inhalation and ingestion. It can penetrate deep into the epidermis and dermis, but there is no evidence that it is absorbed through the skin. Gold nanoobjects accumulate mainly in the liver and spleen, but they can also reach other internal organs. Nanogold can cross the blood-brain and blood-placenta barriers. Toxicokinetics of nanogold depends on the particle size, shape and surface charge. In animals exposure to gold nanoparticles via inhalation induces slight changes in the lungs. Exposure to nanogold by the oral route does not cause adverse health effects in rodents. In animals after injection of gold nanoobjects changes in the liver and lungs were observed. Nanogold induced genotoxic effects in cells, but not in animals. No adverse effects on the fetus or reproduction were found. There are no carcinogenicity studies on gold nanoparticles. The mechanism of toxicity may be related to the interaction of gold nanoobjects with proteins and DNA, and it leads to the induction of oxidative stress and genetic material damage. The impact of nanostructures on human health has not yet been fully understood. The person, who works with nanomaterials should exercise extreme caution and apply existing recommendations on the evaluation of nanoobjects exposure. The risk assessment should be the basis for taking appropriate measures to limit potential exposure to nanometals, including nanogold. Med Pr 2017;68(4):545-556.",
+    "relevance": 8,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "27533849",
+    "pmcid": "",
+    "title": "Photothermal therapy mediated by gum Arabic-conjugated gold nanoparticles suppresses liver preneoplastic lesions in mice.",
+    "year": "2016",
+    "journal": "Journal of photochemistry and photobiology. B, Biology",
+    "doi": "10.1016/j.jphotobiol.2016.08.009",
+    "authors": "Gamal-Eldeen; Moustafa; El-Daly; El-Hussieny; Saleh",
+    "abstract": "This study validates the utility of Gum Arabic-conjugated gold nanoparticles (GA-AuNPs) and laser to induce photothermal inhibition of hepatocarcinogenesis, via employing a diethylnitrosamine (DEN)-mediated hepatocellular carcinoma model. This work included both of in vitro and in vivo studies; to investigate the GA-AuNPs cytotoxicity and phototoxicity in hepatic cell line; to delineate the GA-AuNPs therapeutic efficiency in DEN-induced preneoplastic lesions (PNLs) in the liver of Balb-C mice. The therapeutic effects of GA-AuNPs on the mediators of apoptosis, inflammation, and tumor initiation, as well as the histopathological changes in preneoplastic liver have been investigated. Our results infer that GA-AuNPs in combination with laser irradiation led to a significant reduction in the cell viability and in histone deacetylase activity in hepatocarcinoma HepG2 cells. In chemically-induced PNLs mice model our results have demonstrated that GA-AuNPs, with or without laser irradiation, induced cancer cell apoptosis through the activation of death receptors DR5 and caspase-3 and inhibited both of the PNLs incidence and the initiation marker (placental glutathione S-transferase; GST-P). The laser-stimulated GA-AuNPs significantly reduced the tumor necrosis factor-α levels. In summary, GA-AuNPs with laser treatment inhibited liver PNLs via the induction of the extrinsic apoptosis pathway and the inhibition of inflammation.",
+    "relevance": 8,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "12469278",
+    "pmcid": "",
+    "title": "[Structure and function of blood-tissue barriers].",
+    "year": "2002",
+    "journal": "Deutsche medizinische Wochenschrift (1946)",
+    "doi": "",
+    "authors": "Fröhlich",
+    "abstract": "Pharmacologic effects caused by systemic administration of drugs in some organs are prevented by poor transport of the often large or hydrophilic molecules to the parenchyme. The exclusion of macromolecules from the tissue is called blood-tissue barrier. Common examples for barriers are the blood-brain, the blood-placenta-, the blood-retina-, the blood-testis- and the blood- thymus-barrier. The barriers have a well defined anatomic substrate: for the blood-brain-, the inner blood- retina and the blood-thymus-barrier it is the endothelium, for the blood-placenta-, the outer blood-retina-, the blood-testis- and the blood-thymus-barrier these are epithelial cells in the vicinity of the capillary. Epithelia with barrier-function typically have dense intercellular junctions and few pinocytotic vesicles. They express many transporters for the selective transport and for the exchange of molecules. One group of transporters is responsible for the multi-drug resistance. Inflammations and tumors are the most common causes for disturbances of the blood-tissue-barriers. Strategies available for drug delivery to tissues with barriers include the opening of the barrier and the modification of the drug. The opening of the permeability can be achieved by the co-application of the respective drug with mediators as bradykinin or hyperosmolar concentrations of mannitol. Modifications of the drug include lipidization of the molecule, enclosure into liposomes and coupling to substances that are actively taken up by the cells. The pharmaceutical treatment of organs with blood-tissue barriers requires both an efficacious drug and an special application strategy.",
+    "relevance": 8,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "40765136",
+    "pmcid": "",
+    "title": "Smartphone Dual-Channel Biosensor for Simultaneous PLGF/sFlt-1 Detection and Signaling Pathway Analysis.",
+    "year": "2025",
+    "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+    "doi": "10.1002/smll.202503452",
+    "authors": "Chen; Li; Li; Huang; He",
+    "abstract": "Preeclampsia in pregnancies affects angiogenesis while the fetus develops. Early diagnosis of preeclampsia can enable timely prognosis and intervention. This study developed a smartphone-based, label-free dual-channel electrochemical biosensing platform for the simultaneous detection of preeclampsia biomarkers, placental growth factor (PLGF) and soluble Fms-like tyrosine kinase-1 (sFlt-1). Based on the functional modification of gold nanoparticles and reduced graphene oxide on working electrodes, the specific surface area is enlarged, and the stability is improved. PLGF and sFlt-1 antibody serving as sensitive elements, are immobilized on the electrode surface. As PLGF binds sFlt-1 dynamically, fluidic chambers are designed based on 3D printing for comprehensive detection. The biosensor achieved linear ranges of 10-8000 pg mL-1 for sFlt-1 and 1-250 pg mL-1 for PLGF, meeting clinical diagnostic requirements. Molecular docking is used to analyze the binding properties and signaling pathways of PLGF and sFlt-1, providing critical diagnostic insights for clinicians. This biosensing platform, featuring a portable integrated circuit and smartphone-based APP, enables point-of-care testing (POCT). Comparison tests using plasma samples from 10 individuals demonstrated a strong correlation (r > 0.98, p > 0.1) with ELISA, indicating the potential in clinical POCT applications for preeclampsia. These results suggest that the sensor can be used as a dual-channel biomarker for preeclampsia without sample labeling.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "39428051",
+    "pmcid": "",
+    "title": "Lysine 204 is crucial for the antiport function of the human LAT1 transporter.",
+    "year": "2025",
+    "journal": "Biochimica et biophysica acta. Bioenergetics",
+    "doi": "10.1016/j.bbabio.2024.149520",
+    "authors": "Scalise; Scanga; Console; Galluccio; Pochini",
+    "abstract": "LAT1 (SLC7A5) catalyzes an antiport reaction of amino acids with specificity towards the essential ones. It is mainly expressed at the Blood Brain Barrier and placenta barriers, but it becomes over-expressed in virtually all human cancers even if originating from tissues with lower expression levels. The antiport reaction of LAT1 is crucial at the BBB since its inherited loss causes Autism Spectrum Disorder. We have investigated the possible molecular determinant of the antiport by site-directed mutagenesis, in vitro transport assay and computational analysis. Previous data indicated that mutation of K204 impairs, but does not knock-out LAT1 functionality. We have investigated the activity changes in the K204Q mutant by following the transport of [3H]-histidine, one of the major substrates, in proteoliposomes harbouring the WT or K204Q. In the mutant, the [3H]-histidine uptake and efflux are not more stimulated by the counter-substrate as they occur in the WT. Moreover, the mutation strongly decreases the substrate affinity and alters the pH dependence of K204Q. Molecular Dynamics analysis correlates well with the experimental data since it shows that substrate prematurely escapes the binding site. In addition, the K204Q shows a strongly increased mobility in those regions, transmembrane domains and random coils, involved in the transport cycle. The identified Lys residue could be responsible of the same phenomenon in those members of the SLC7 family, described as antiporters, in which it is conserved.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "39775151",
+    "pmcid": "",
+    "title": "Lipid nanoparticle ferries therapeutic mRNA to the placenta.",
+    "year": "2025",
+    "journal": "Nature reviews. Drug discovery",
+    "doi": "10.1038/d41573-025-00003-3",
+    "authors": "Eccleston",
+    "abstract": "",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "40616981",
+    "pmcid": "",
+    "title": "The antiport mechanism of the human LAT1 transporter: defining the molecular determinants by means of wet and dry approaches.",
+    "year": "2025",
+    "journal": "Biochemical and biophysical research communications",
+    "doi": "10.1016/j.bbrc.2025.152277",
+    "authors": "Scalise; Scanga; Console; Galluccio; Indiveri",
+    "abstract": "LAT1 (SLC7A5) catalyzes an antiport of essential amino acids at the Blood Brain Barrier and placenta barrier where it is mainly expressed. LAT1 becomes overexpressed in human cancers, even when originating from tissues in which it is not highly expressed. The antiport mediated by the transporter is crucial for maintaining the essential amino acid homeostasis in the brain, as demonstrated by the occurrence of Autism Spectrum Disorder forms caused by inherited mutations of LAT1. We have investigated the molecular determinants of the antiport reaction by using wet and dry lab approaches based on proteoliposome transport assay with WT and site-directed mutants coupled with computational analyses. The transport of [3H]-histidine, a high-affinity LAT1 substrate, has been assayed on the F400V single and the F400V/K204Q double mutants in comparison with the WT. The F400V mutant showed a strongly impaired antiport function with a concomitant increase of the uniport activity with respect to the WT. The F400V function was scarcely dependent on the pH and was stimulated by cholesterol, similar to previous observations on the WT. The observed impaired stimulation by the countersubstrate was more dramatic in the double mutant that became completely insensitive to the counter-substrate and even trans-inhibited. Molecular dynamics supported the wet lab data showing a much higher degree of mobility of the double mutant, with respect to the WT, indicating the decrease or loss of constraints in the protein conformational changes during the transport cycle.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "41307534",
+    "pmcid": "",
+    "title": "Lipid Nanoparticle-mediated mRNA delivery system into preimplantation embryos.",
+    "year": "2025",
+    "journal": "Biology of reproduction",
+    "doi": "10.1093/biolre/ioaf262",
+    "authors": "Emori; Tanaka; Nakagawa; Akita; Ikawa",
+    "abstract": "Lipid nanoparticles (LNPs) have emerged as a nonviral mRNA delivery vehicle for both basic and clinical applications. In the present study, we showed that the LNPs passed through the zona pellucida (ZP), the extracellular matrix surrounding the egg, and efficiently transduced preimplantation embryos. We first tested different types of surface polarity in LNPs carrying EGFP (LNP-EGFP) by changing cholesterol and found that the LNPs composed with neutral or anionic cholesterol are less toxic and more suitable for mRNA delivery into zygotes. Next, we transferred Cre mRNA using neutral LNP (LNP-Cre) and saw the floxed allele recombination in reporter mTmG transgenic embryos. After treatment with LNP-Cre at a 10 ng/μL concentration for 20 hrs at the zygote stage, about 76% mTmG embryos expressed the reporter EGFP at the blastocyst stage, and about 82 % of embryos expressed EGFP in both the placenta and fetus at E12.5. Finally, we treated mTmG blastocyst stage embryos with LNP-Cre at a 50 ng/μL concentration for 20 hrs, and found that about 86% of them expressed the reporter EGFP. Intriguingly, the EGFP fluorescence was only observed in trophectoderm (TE) cells, but not in the inner cell mass (ICM). Subsequently, we observed placenta-specific reporter EGFP expression in about 65% of the later-stage embryos (E12.5). Collectively, our study shows that LNPs provide a novel mRNA delivery system into preimplantation embryos that can be used for studying gene functions in pre-, peri-, and post-implantation development.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "38580936",
+    "pmcid": "PMC2894102",
+    "title": "Evaluation of Lippia scaberrima Sond. and Aspalathus linearis (Burm.f.) R. Dahlgren extracts on human CYP enzymes and gold nanoparticle synthesis: implications for drug metabolism and cytotoxicity.",
+    "year": "2024",
+    "journal": "BMC complementary medicine and therapies",
+    "doi": "10.1186/s12906-024-04439-9",
+    "authors": "Kok; Juvonen; Pasanen; Mandiwana; Kalombo",
+    "abstract": "BACKGROUND: Metabolism is an important component of the kinetic characteristics of herbal constituents, and it often determines the internal dose and concentration of these effective constituents at the target site. The metabolic profile of plant extracts and pure compounds need to be determined for any possible herb-drug metabolic interactions that might occur. METHODS: Various concentrations of the essential oil of Lippia scaberrima, the ethanolic extract of Lippia scaberrima alone and their combinations with fermented and unfermented Aspalathus linearis extract were used to determine the inhibitory potential on placental, microsomal and recombinant human hepatic Cytochrome P450 enzymes. Furthermore, the study investigated the synthesis and characterization of gold nanoparticles from the ethanolic extract of Lippia scaberrima as a lead sample. Confirmation and characterization of the synthesized gold nanoparticles were conducted through various methods. Additionally, the cytotoxic properties of the ethanolic extract of Lippia scaberrima were compared with the gold nanoparticles synthesized from Lippia scaberrima using gum arabic as a capping agent. RESULTS: All the samples showed varying levels of CYP inhibition. The most potent inhibition took place for CYP2C19 and CYP1B1 with 50% inhibitory concentration (IC50) values of less than 0.05 µg/L for the essential oil tested and IC50-values between 0.05 µg/L-1 µg/L for all the other combinations and extracts tested, respectively. For both CYP1A2 and CYP2D6 the IC50-values for the essential oil, the extracts and combinations were found in the range of 1 - 10 µg/L. The majority of the IC50 values found were higher than 10 µg/L and, therefore, were found to have no inhibition against the CYP enzymes tested. CONCLUSION: Therefore, the essential oil of Lippia scaberrima, the ethanolic extract of Lippia scaberrima alone and their combinations with Aspalathus linearis do not possess any clinically significant CYP interaction potential and may be further investigated for their adjuvant potential for use in the tuberculosis treatment regimen. Furthermore, it was shown that the cytotoxic potential of the Lippia scaberrima gold nanoparticles was reduced by twofold when compared to the ethanolic extract of Lippia scaberrima.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting"
+    ]
+  },
+  {
+    "pmid": "39204189",
+    "pmcid": "PMC6519756",
+    "title": "Novel Synergistic Approach for Bioactive Macromolecules: Evaluating the Efficacy of Goat Placenta Extract in PEGylated Liposomes and Microspicules for Chemotherapy-Induced Hair Loss.",
+    "year": "2024",
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "doi": "10.3390/ph17081084",
+    "authors": "Sanguanboonyaphong; Sritananuwat; Duangjit; Lapmag; Pumchan",
+    "abstract": "Chemotherapy-induced hair loss is a distressing side effect of cancer treatment, and medical interventions are often needed to address this problem. The objectives of this study were to evaluate the bioactivity of goat placenta (GP) extract on both normal and chemotherapy-induced hair cells and to develop PEGylated liposomes (PL) and microspicule (MS) formulations for promoting hair growth in patients with chemotherapy-induced hair loss. The bioactivities of GP extract on human follicle dermal papilla (HFDP) cells and cells damaged by chemotherapy were assessed. GP extract was incorporated into PLs and MS gel (PL-MS) and then investigated in vitro skin permeation and in vivo studies on the scalps of patients with chemotherapy-induced hair loss. GP extract stimulated HFDP cell proliferation in both normal and cisplatin-damaged cells. PL nanovesicles and MS gel worked synergistically to deliver macromolecular proteins into the skin and hair follicles. The application of GP extract-loaded PL-MS to the scalps of chemotherapy-treated patients for 12 weeks significantly enhanced the hair growth rate, without causing skin irritation. In conclusion, GP extract promoted the proliferation of hair cells damaged by chemotherapy, when this extract, combined with PL-MS, effectively delivered bioactive macromolecules across the skin and hair follicles, resulting in successful regrowth of hair post-chemotherapy.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "36781771",
+    "pmcid": "",
+    "title": "Quantification of a Fluorescent Lipid DOPE-NBD by an HPLC Method in Biological Tissue: Application to Study Liposomes' Uptake by Human Placenta.",
+    "year": "2023",
+    "journal": "Methods in molecular biology (Clifton, N.J.)",
+    "doi": "10.1007/978-1-0716-2954-3_26",
+    "authors": "Fliedel; Mignet; Fournier; Andrieux; Alhareth",
+    "abstract": "Nanomedicine offers the possibility of modifying the distribution of encapsulated drugs and biomolecules. Nanomedicine could limit the transplacental passage and/or enhance the concentration of drugs in placental tissue; this approach could be exploited for the treatment of pregnancy disorders. In the context of pregnancy, tackling the biological fate of both the nanocarrier and the drug has high importance in ensuring both the mother's and the fetus' safety.In this study, we propose a method for quantifying the uptake of liposomes inside placental tissue using covalently labeled liposomes and adapting a high-performance liquid chromatography (HPLC) method using a fluorescent detector. An optimized protocol for liquid-liquid extraction of fluorescent lipids from placental tissue extracts, followed by HPLC analysis, is detailed in this chapter. The HPLC method allows the quantification of fluorescent lipids using a calibration curve, including the biological matrix and extraction procedures. The internalization rate of fluorescent liposomes within human villous placental explants was quantitatively assessed, thanks to the HPLC developed method and suitable analytical tools.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "35890207",
+    "pmcid": "PMC7248543",
+    "title": "Placenta-Derived Mesenchymal-like Adherent Stromal Cells as an Effective Cell Therapy for Cocaine Addiction in a Rat Model.",
+    "year": "2022",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics14071311",
+    "authors": "Pe'er-Nissan; Ahdoot-Levi; Betzer; Itzhak; Shraga-Heled",
+    "abstract": "Recent research points to mesenchymal stem cells' potential for treating neurological disorders, especially drug addiction. We examined the longitudinal effect of placenta-derived mesenchymal stromal-like cells (PLX-PAD) in a rat model for cocaine addiction. Sprague-Dawley male rats were trained to self-administer cocaine or saline daily until stable maintenance. Before the extinction phase, PLX-PAD cells were administered by intracerebroventricular or intranasal routes. Neurogenesis was evaluated, as was behavioral monitoring for craving. We labeled the PLX-PAD cells with gold nanoparticles and followed their longitudinal migration in the brain parallel to their infiltration of essential peripheral organs both by micro-CT and by inductively coupled plasma-optical emission spectrometry. Cell locations in the brain were confirmed by immunohistochemistry. We found that PLX-PAD cells attenuated cocaine-seeking behavior through their capacity to migrate to specific mesolimbic regions, homed on the parenchyma in the dentate gyrus of the hippocampus, and restored neurogenesis. We believe that intranasal cell therapy is a safe and effective approach to treating addiction and may offer a novel and efficient approach to rehabilitation.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "36125850",
+    "pmcid": "PMC5037920",
+    "title": "Critical Role for Macrophages in the Developmental Programming of Pancreatic β-Cell Area in Offspring of Hypertensive Pregnancies.",
+    "year": "2022",
+    "journal": "Diabetes",
+    "doi": "10.2337/db22-0404",
+    "authors": "Root; Akhaphong; Cedars; Molin; Huchthausen",
+    "abstract": "Preeclampsia is a pregnancy-specific complication with long-term negative outcomes for offspring, including increased susceptibility to type 2 diabetes (T2D) in adulthood. In a rat reduced uteroplacental perfusion pressure (RUPP) model of chronic placental ischemia, maternal hypertension in conjunction with intrauterine growth restriction mimicked aspects of preeclampsia and resulted in female embryonic day 19 (e19) offspring with reduced β-cell area and increased β-cell apoptosis compared with offspring of sham pregnancies. Decreased pancreatic β-cell area persisted to postnatal day 13 (PD13) in females and could influence whether T2D developed in adulthood. Macrophage changes also occurred in islets in T2D. Therefore, we hypothesized that macrophages are crucial to reduction in pancreatic β-cell area in female offspring after chronic placental ischemia. Macrophage marker CD68 mRNA expression was significantly elevated in e19 and PD13 islets isolated from female RUPP offspring compared with sham. Postnatal injections of clodronate liposomes into female RUPP and sham offspring on PD2 and PD9 significantly depleted macrophages compared with injections of control liposomes. Depletion of macrophages rescued reduced β-cell area and increased β-cell proliferation and size in RUPP offspring. Our studies suggest that the presence of macrophages is important for reduced β-cell area in female RUPP offspring and changes in macrophages could contribute to development of T2D in adulthood.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "35055324",
+    "pmcid": "PMC6904754",
+    "title": "MRI in Pregnancy and Precision Medicine: A Review from Literature.",
+    "year": "2021",
+    "journal": "Journal of personalized medicine",
+    "doi": "10.3390/jpm12010009",
+    "authors": "Gatta; Di Grezia; Cuccurullo; Sardu; Iovino",
+    "abstract": "Magnetic resonance imaging (MRI) offers excellent spatial and contrast resolution for evaluating a wide variety of pathologies, without exposing patients to ionizing radiations. Additionally, MRI offers reproducible diagnostic imaging results that are not operator-dependent, a major advantage over ultrasound. MRI is commonly used in pregnant women to evaluate, most frequently, acute abdominal and pelvic pain or placental abnormalities, as well as neurological or fetal abnormalities, infections, or neoplasms. However, to date, our knowledge about MRI safety during pregnancy, especially about the administration of gadolinium-based contrast agents, which are able to cross the placental barrier, is still limited, raising concerns about possible negative effects on both the mother and the health of the fetus. Contrast agents that are unable to cross the placenta in a way that is safe for the fetus are desirable. In recent years, some preclinical studies, carried out in rodent models, have evaluated the role of long circulating liposomal nanoparticle-based blood-pool gadolinium contrast agents that do not penetrate the placental barrier due to their size and therefore do not expose the fetus to the contrast agent during pregnancy, preserving it from any hypothetical risks. Hence, we performed a literature review focusing on contrast and non-contrast MRI use during pregnancy.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "32493813",
+    "pmcid": "PMC6934710",
+    "title": "Placental Myeloid Cells Protect against Zika Virus Vertical Transmission in a ",
+    "year": "2020",
+    "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+    "doi": "10.4049/jimmunol.1901289",
+    "authors": "Winkler; Evans; Carmody; Peterson",
+    "abstract": "The ability of Zika virus (ZIKV) to cross the placenta and infect the fetus is a key mechanism by which ZIKV causes microcephaly. How the virus crosses the placenta and the role of the immune response in this process remain unclear. In the current study, we examined how ZIKV infection affected innate immune cells within the placenta and fetus and whether these cells influenced virus vertical transmission (VTx). We found myeloid cells were elevated in the placenta of pregnant ZIKV-infected Rag1-/- mice treated with an anti-IFNAR Ab, primarily at the end of pregnancy as well as transiently in the fetus several days before birth. These cells, which included maternal monocyte/macrophages, neutrophils, and fetal myeloid cells contained viral RNA and infectious virus, suggesting they may be infected and contributing to viral replication and VTx. However, depletion of monocyte/macrophage myeloid cells from the dam during ZIKV infection resulted in increased ZIKV infection in the fetus. Myeloid cells in the fetus were not depleted in this experiment, likely because of an inability of liposome particles containing the cytotoxic drug to cross the placenta. Thus, the increased virus infection in the fetus was not the result of an impaired fetal myeloid response or breakdown of the placental barrier. Collectively, these data suggest that monocyte/macrophage myeloid cells in the placenta play a significant role in inhibiting ZIKV VTx to the fetus, possibly through phagocytosis of virus or virus-infected cells.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "32558532",
+    "pmcid": "",
+    "title": "Placental Trophoblast-Inspired Lipid Bilayers for Cell-Free Investigation of Molecular Interactions.",
+    "year": "2020",
+    "journal": "ACS applied materials & interfaces",
+    "doi": "10.1021/acsami.0c06197",
+    "authors": "Bailey-Hytholt; Shen; Nie; Tripathi; Shukla",
+    "abstract": "The placenta plays a key role in regulating the maternal-fetal transport but it is a difficult organ to study due to a lack of existing in vitro models. Lipid bilayers inspired by the placenta can provide a facile new in vitro tool with promise for screening molecular transport across this important organ. Here we developed lipid bilayers that mimic the composition of human placental trophoblast cells at different times during the course of pregnancy. Mass spectrometry identified five major lipid classes (phosphatidylcholine, phosphatidylethanolamine, phosphatidylinositol, phosphatidylserine, and sphingomyelin) present at varying concentrations in trophoblasts representative of the first and third trimesters and full-term placenta. We successfully developed supported and suspended lipid bilayers mimicking these trophoblast lipid compositions and then demonstrated the utility of these synthetic placenta models for investigating molecular interactions. Specifically, we investigated the interactions with di(2-ethylhexyl) phthalate (DEHP), a common plasticizer and environmental toxicant, and amphotericin B, a common yet toxic, antifungal therapeutic. Overall, we observed that DEHP adsorbs and potentially embeds itself within all placental lipid bilayers, with varying levels of interaction. For both amphotericin B and a liposomal formulation of amphotericin B, AmBisome, we noted lower levels of permeation in transport studies with bilayers and trophoblast cells compared with DEHP, likely driven by differences in size. AmBisome interacted less with both the supported and suspended placental lipid bilayers in comparison to amphotericin B, suggesting that drug delivery carriers can vary the impact of a pharmaceutical agent on these lipid structures. We found that the apparent permeability observed in suspended bilayers was approximately an order of magnitude less than those observed for trophoblast monolayers, which is typical of lipid bilayers. Ultimately, these placenta mimetic lipid bilayers can serve as a platform for the rapid initial screening of molecular interactions with the maternal-fetal interface to better inform future testing.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "27998767",
+    "pmcid": "",
+    "title": "Maternal exosomes in diabetes contribute to the cardiac development deficiency.",
+    "year": "2017",
+    "journal": "Biochemical and biophysical research communications",
+    "doi": "10.1016/j.bbrc.2016.12.097",
+    "authors": "Shi; Zhao; Cai; Wei; Zhou",
+    "abstract": "Maternal diabetes mellitus induces an increased risk of congenital heart defects (CHD), however, the exact mechanisms are still not fully illustrated. In this study, diabetic pregnant C57BL/6 mice were induced by injection of streptozotocin before mating. Compared with the control normal mice, diabetic pregnant mice displayed significant changes of the exosomal miRNA contents in the blood, as revealed by RNA-seq analysis. Multiple of these miRNAs were found involved in cardiac development regulation. Moreover, fluorescence labeled exosomes and gold nanoparticles could cross the placenta barrier and infiltrated into the embryonic organs/tissues, including the heart, during embryonic development. Injection of diabetic maternal exosomes strikingly increased the risk of CHD in the normal recipient pregnant mice. Taken together, we could draw the conclusion that maternal exosomes in diabetes could cross the maternal-fetal barrier and contribute to the cardiac development deficiency possibly via miRNAs, providing new insights in CHD prevention and treatment.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "28205586",
+    "pmcid": "PMC5311953",
+    "title": "Corrigendum: A liposomal Gd contrast agent does not cross the mouse placental barrier.",
+    "year": "2017",
+    "journal": "Scientific reports",
+    "doi": "10.1038/srep39724",
+    "authors": "Shetty; Pautler; Ghaghada; Rendon; Gao",
+    "abstract": "",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "28478820",
+    "pmcid": "",
+    "title": "Down-regulation of HLA-G gene expression as an immunogenetic contraceptive therapy.",
+    "year": "2017",
+    "journal": "Medical hypotheses",
+    "doi": "10.1016/j.mehy.2017.03.030",
+    "authors": "Kaminski; Ellwanger; Chies",
+    "abstract": "HLA-G is a nonclassical HLA immunotolerogenic molecule expressed in different human cell types. Successful embryo implantation is a consequence of information exchange between the uterus and the blastocyst. It is widely accepted that HLA-G expression by the fetus promotes the establishment of several mechanisms that, ultimately, would protect the developing embryo from maternal immune rejection and seems to be essential to both an adequate implantation and a healthy pregnancy. MicroRNAs miR-148a and miR-152 down-regulate HLA-G expression. The levels of both microRNAs in the placenta are very low. Although various contraceptive methods are available in the market, several of the most popular are based on hormone administration, an approach that have been causing concerns regarding their adverse effects. This scenario has led the research and development of new contraceptive methods meant to induce low disturbances in women body. Based on this context, we hypothesize that the delivery of miR-148a and miR-152 microRNAs, carried by liposomes, into the uterus, would locally induce a down-regulation of the immunotolerogenic HLA-G molecule. In this sense, a local concentration increase of both miR-148a and miR-152 would counteract HLA-G expression and therefore prevent pregnancy development, being a potential tool for the development of a new contraceptive therapy.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "28864020",
+    "pmcid": "",
+    "title": "Pre-clinical evaluation of a nanoparticle-based blood-pool contrast agent for MR imaging of the placenta.",
+    "year": "2017",
+    "journal": "Placenta",
+    "doi": "10.1016/j.placenta.2017.06.008",
+    "authors": "Ghaghada; Starosolski; Bhayana; Stupin; Patel",
+    "abstract": "INTRODUCTION: Non-invasive 3D imaging that enables clear visualization of placental margins is of interest in the accurate diagnosis of placental pathologies. This study investigated if contrast-enhanced MRI performed using a liposomal gadolinium blood-pool contrast agent (liposomal-Gd) enables clear visualization of the placental margins and the placental-myometrial interface (retroplacental space). Non-contrast MRI and contrast-enhanced MRI using a clinically approved conventional contrast agent were used as comparators. MATERIALS AND METHODS: Studies were performed in pregnant rats under an approved protocol. MRI was performed at 1T using a permanent magnet small animal scanner. Pre-contrast and post-liposomal-Gd contrast images were acquired using T1-weighted and T2-weighted sequences. Dynamic Contrast enhanced MRI (DCE-MRI) was performed using gadoterate meglumine (Gd-DOTA, Dotarem®). Visualization of the retroplacental clear space, a marker of normal placentation, was judged by a trained radiologist. Signal-to-noise (SNR) and contrast-to-noise (CNR) ratios were calculated for both single and averaged acquisitions. Images were reviewed by a radiologist and scored for the visualization of placental features. Contrast-enhanced CT (CE-CT) imaging using a liposomal CT agent was performed for confirmation of the MR findings. Transplacental transport of liposomal-Gd was evaluated by post-mortem elemental analysis of tissues. Ex-vivo studies in perfused human placentae from normal, GDM, and IUGR pregnancies evaluated the transport of liposomal agent across the human placental barrier. RESULTS: Post-contrast T1w images acquired with liposomal-Gd demonstrated significantly higher SNR (p = 0.0002) in the placenta compared to pre-contrast images (28.0 ± 4.7 vs. 6.9 ± 1.8). No significant differences (p = 0.39) were noted between SNR in pre-contrast and post-contrast liposomal-Gd images of the amniotic fluid, indicating absence of transplacental passage of the agent. The placental margins were significantly (p < 0.001) better visualized on post-contrast liposomal-Gd images. DCE-MRI with the conventional Gd agent demonstrated retrograde opacification of the placenta from fetal edge to the myometrium, consistent with the anatomy of the rat placenta. However, no consistent and reproducible visualization of the retroplacental space was demonstrated on the conventional Gd-enhanced images. The retroplacental space was only visualized on post-contrast T1w images acquired using the liposomal agent (SNR = 15.5 ± 3.4) as a sharply defined, hypo-enhanced interface. The retroplacental space was also visible as a similar hypo-enhancing interface on CE-CT images acquired using a liposomal CT contrast agent. Tissue analysis demonstrated undetectably low transplacental permeation of liposomal-Gd, and was confirmed by lack of permeation through a perfused human placental model. CONCLUSIONS: Contrast-enhanced T1w-MRI performed using liposomal-Gd enabled clear visualization of placental margins and delineation of the retroplacental space from the rest of the placenta; the space is undetectable on non-contrast imaging and on post-contrast T1w images acquired using a conventional, clinically approved Gd chelate contrast agent.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "27424361",
+    "pmcid": "",
+    "title": "Pegylated Liposomal Doxorubicin Is an Active Agent for Chemotherapy-Resistant Choriocarcinoma: A Report of Two Cases.",
+    "year": "2016",
+    "journal": "The Journal of reproductive medicine",
+    "doi": "",
+    "authors": "Popadiuk; Power",
+    "abstract": "BACKGROUND: Despite advances in chemotherapy, radiation, surgery, and supportive treatments, a significant proportion of high-risk metastatic gestational trophoblastic disease patients develop resistant disease and die. Of those cured, protracted treatments can lead to long-term morbidity or later toxicity and death. Here we describe 2 patients with brain metastases who failed multiple lines of standard chemotherapy and radiation but had complete response to pegylated liposomal doxorubicin (PLD). CASE 1: A 35-year-old woman presented with choriocarcinoma in the brain, lungs, and subcutaneous tissues 11 months after full-term delivery. Her FIGO risk score was 14. Over 3 years she was treated with EMA-CO, EMA-CE, Taxol, gemcitabine, brain radiation, and excisional craniotomy for recurrent choriocarcinoma. She showed complete response of choriocarcinoma brain metastases following 2 cycles of PLD. She was choriocarcinoma free until her death 9 months later from acute myelogenous leukemia. CASE 2: A 52-year-old multigravid woman presented with choriocarcinoma 3 years following miscarriage. Her FIGO score was 16. Over 18 months she was treated with EMA-CO, TP/TE and IT MTX, and radiation. Her disease proved resistant and midbrain tumor unresectable. She showed complete response to PLD following 3 cycles but ultimately died from neurologic complications. CONCLUSION: PLD is an active agent in the treatment of high-risk choriocarcinoma.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "24445066",
+    "pmcid": "",
+    "title": "Detection of CREB phosphorylation via Zr (IV) ion mediated signal amplification.",
+    "year": "2014",
+    "journal": "Biosensors & bioelectronics",
+    "doi": "10.1016/j.bios.2013.12.057",
+    "authors": "Yin; Li; Yang; Gao; Sun",
+    "abstract": "Phosphorylation of protein plays a vital regulatory role in a variety of biological processes. We herein report a novel method to assay the level of phosphorylated cAMP-response element binding protein (CREB) via Zr(4+) mediated signal amplification using gold nanoparticle/DNA/methylene blue (GNP/DNA/MB) nanocomposites. In this method the probe DNA immobilized at a gold electrode surface can specifically and efficiently recognize the phosphorylated target protein CREB. Then Zr(4+) links the phosphorylated CREB with GNP/DNA/MB nanocomposites by coordinating the phosphate groups on both CREB and the nanocomposites. Since the nanocomposites can provide high sensitivity (limit of detection: 0.25 nM) for the detection, efficient and highly sensitive bioanalysis of the expression level of phosphorylated protein CREB in human placenta tissues has also been conducted in this work. Our method is reported which shows acceptable stability, reproducibility for assaying of the protein phosphorylation states in real biosamples under physiological and pathological conditions with great potential for clinical applications in future.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Targeting"
+    ]
+  },
+  {
+    "pmid": "23505470",
+    "pmcid": "PMC2106263",
+    "title": "Gold- and silver nanoparticles affect the growth characteristics of human embryonic neural precursor cells.",
+    "year": "2013",
+    "journal": "PloS one",
+    "doi": "10.1371/journal.pone.0058211",
+    "authors": "Söderstjerna; Johansson; Klefbohm; Englund Johansson",
+    "abstract": "Rapid development of nanotechnologies and their applications in clinical research have raised concerns about the adverse effects of nanoparticles (NPs) on human health and environment. NPs can be directly taken up by organs exposed, but also translocated to secondary organs, such as the central nervous system (CNS) after systemic- or subcutaneous administration, or via the olfactory system. The CNS is particularly vulnerable during development and recent reports describe transport of NPs across the placenta and even into brain tissue using in vitro and in vivo experimental systems. Here, we investigated whether well-characterized commercial 20 and 80 nm Au- and AgNPs have an effect on human embryonic neural precursor cell (HNPC) growth. After two weeks of NP exposure, uptake of NPs, morphological features and the amount of viable and dead cells, proliferative cells (Ki67 immunostaining) and apoptotic cells (TUNEL assay), respectively, were studied. We demonstrate uptake of both 20 and 80 nm Au- and AgNPs respectively, by HNPCs during proliferation. A significant effect on the sphere size- and morphology was found for all cultures exposed to Au- and AgNPs. AgNPs of both sizes caused a significant increase in numbers of proliferating and apoptotic HNPCs. In contrast, only the highest dose of 20 nm AuNPs significantly affected proliferation, whereas no effect was seen on apoptotic cell death. Our data demonstrates that both Au- and AgNPs interfere with the growth profile of HNPCs, indicating the need of further detailed studies on the adverse effects of NPs on the developing CNS.",
+    "relevance": 7,
+    "tags": [
+      "Au",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "26105926",
+    "pmcid": "",
+    "title": "PP072. Development of polyphenols-containing nanoparticles for the treatment of vaginal inflammation.",
+    "year": "2013",
+    "journal": "Pregnancy hypertension",
+    "doi": "10.1016/j.preghy.2013.04.097",
+    "authors": "Basnet; Skalko-Basnet; Hentemann; Acharya",
+    "abstract": "INTRODUCTION: Vaginal inflammation during pregnancy is linked to miscarriage, preterm labour, placental dysfunction and perinatal complications. Despite the availability of several anti-inflammatory drugs, there is no general consensus regarding safe formulation especially for use in early pregnancy. On the other hand, polyphenols especially \"curcumin\" from Turmeric (powdered rhizome of Curcuma longa) and \"catechins\" from green tea have been traditionally used and widely discussed (>16,000 citations for curcumin and >24,000 for catechin in SciFinder) as pharmacologically active anti-inflammatory components and considered as safe. However, due to their poor solubility, low bioavailability and stability, their clinical application remains to be limited. OBJECTIVES: Our aim was to develop a non-teratogenic and non-toxic polyphenol-bearing nanoparticles which can be safely used in early pregnancy for the treatment of vaginal inflammation. METHODS: Vesicle-based liposomal formulations for polyphenols (curcumins and catechins) were developed and standardized. Liposomal curcumins and catechins were characterized in respect to their stability, size and entrapment efficiency. Antioxidant activities were evaluated by DPPH/ABTS+/O2.- and SOD activities. Anti-inflammatory activities were evaluated by measuring LPS-induced NO and pro-inflammatory cytokines such as IL-1B and TNF-A in macrophages (J774.1) and LPG-induced cytokines IL-8 in human vaginal cells lines (End1/E6E7, Ect1/E6E7, VK2/E6E7). Antioxidant and anti-inflammatory activities of curcumin/catechin and their corresponding vesicle-based formulation were compared. RESULTS: Phospholipid-based nanoparticles (approx. 200 nm) were found to be stable and incorporating high amount of curcumins or catechins. Liposomal curcumin was found to be 2- to 6-folds more potent than curcumin in inhibiting NO production and pro-inflammatory cytokines in macrophages. IL-8 was inhibited up to 67% by the liposomal curcumin in human vaginal cell lines (End1/E6E7, Ect1/E6E7, VK2/E6E7) as compared to curcumin. However, similar vesicle formulations of catechins were not significantly superior to non-vesicle formulations of catechins. CONCLUSION: Standardized liposomal curcuminoids have potential as an effective and safe topical formulation for the treatment of vaginal inflammation in early pregnancy.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Therapy"
+    ]
+  },
+  {
+    "pmid": "23302737",
+    "pmcid": "",
+    "title": "[Effects of transient receptor potential V6 silence on proliferation and apoptosis of trophoblasts].",
+    "year": "2012",
+    "journal": "Zhonghua fu chan ke za zhi",
+    "doi": "",
+    "authors": "Weng; Wang; Qi; Tao; Zhang",
+    "abstract": "OBJECTIVE: To investigate the effects of the transient receptor potential V6 (TRPV6) gene silencing on the proliferation and apoptosis of trophoblasts HTR-8/SVneo cells. METHODS: siRNA sequences targeting the TRPV6 gene were constructed and then transfected into HTR-8/SVneo cells mediated by liposome. The cells were divided three groups, including blank control (add the reagent of transfenction), negative control groups (transfecting nonspecific siRNA) and experimental groups (transfecting TRPV6-siRNA). Those cells in every group were collected at 24, 48, 72 hours after transfecting. The expression levels of TRPV6 mRNA were detected by reverse transcription (RT) PCR at different times after transfecting. The effects of siRNA on the proliferation and apoptosis of the cells were assayed by methyl thiagolyl tetragolium (MTT) and flow cytometry at different times after transfecting. RESULTS: siRNA TRPV6 transfection could inhibit the expression of TRPV6 mRNA in the HTR-8/SVneo cells. The expression was decreased with the extension of time, by 0.72 ± 0.02, 0.54 ± 0.02 and 0.29 ± 0.01 after 12, 48 and 72 hours of siRNA transfection as compared with the blank control and the negative control groups (P < 0.01). The rates of proliferation inhibition were (19.29 ± 1.23)%, (32.12 ± 1.35)% and (46.51 ± 1.42)% at 24, 48 and 72 hours respectively when compared with the blank control (2.12 ± 0.03)%, (2.42 ± 0.02)%, (3.13 ± 0.04)% and the negative control groups (2.37 ± 0.01)%, (2.61 ± 0.05)%, (2.93 ± 0.03)% (P < 0.01). The apoptosis rates of HTR-8/SVneo cells was 16.21% at 48 hours after transfected with siRNA TRPV6, which were significantly higher than 3.27% in the blank control and 5.34% in the negative control groups (P < 0.05). CONCLUSION: Silenceing of TRPV6 genen could inhibit the proliferation and increase the apoptosis of extravillous trophoblas of human placenta.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting"
+    ]
+  },
+  {
+    "pmid": "21272934",
+    "pmcid": "",
+    "title": "Review: Placental syncytiotrophoblast membranes--domains, subdomains and microdomains.",
+    "year": "2011",
+    "journal": "Placenta",
+    "doi": "10.1016/j.placenta.2011.01.002",
+    "authors": "Riquelme",
+    "abstract": "Human placental syncytiotrophoblast (STB) is an epithelium responsible for materno-fetal exchange. Ions play multiple roles in STB, as in other transport epithelia. We have been interested in the character and functional expression of ion channels in STB membrane fractions. Characterization of ion channels and their relationship with different domains, subdomains and microdomains of STB membranes is important to explain the intracellular mechanisms operating in the placental barrier. The aim of this paper is to summarize our work on this subject. We isolated and purified basal membrane (BM) and two fractions from the apical membrane, a classical fraction (MVM) and a light fraction (LMVM). They were used either for reconstitution into giant liposomes or for transplantation into Xenopus oocyte membranes followed by electrophysiological recordings to characterize chloride and cationic channels in STB from term human placenta. In addition, Western blot analysis, using ion channel antibodies, was performed on purified apical and basal membrane fractions. We also reported the presence of two functional microdomains (lipid rafts) in LMVM and MVM, using detergent resistant membranes (DRMs) and cholesterol-sensitive depletion. Moreover we found evidence of cytoskeletal participation in lipid rafts of different composition. Our results contribute to knowledge of the ion channels present in STB membranes and their participation in the physiology of this epithelium in normal and pathological pregnancies.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "18708253",
+    "pmcid": "",
+    "title": "Barium, TEA and sodium sensitive potassium channels are present in the human placental syncytiotrophoblast apical membrane.",
+    "year": "2008",
+    "journal": "Placenta",
+    "doi": "10.1016/j.placenta.2008.07.002",
+    "authors": "Díaz; Vallejos; Guerrero; Riquelme",
+    "abstract": "The human placental syncytiotrophoblast (hSTB) is a polarized epithelial structure, without paracellular routes, forming the main barrier for materno-fetal exchange. There is ample evidence suggesting the presence of potassium (K(+)) channels in the placental apical membrane; which could contribute to membrane potential and volume regulation. We have therefore examined the K(+) currents of isolated apical membranes from human term placenta using electrophysiological methods: reconstitution of ion channels from apical membranes into giant liposomes (single channel recordings, patch clamp method) or their functional transplantation into Xenopus laevis oocytes (total currents recording, voltage clamp method). Single channel recording experiments show the presence of K(+) channels in the hSTB microvillous membrane sensitive to Tetraethylammonium (TEA) and Barium (Ba(+2)). Patch current activity was diminished 50% and 70% by 20 mmol/L TEA and 5 mmol/L Ba(+2) respectively. The more frequent conductance was approximately 73pS, however several levels of current were detected suggesting the presence of more than one type of K(+) channel. In addition, sodium (Na(+)) sensitivity was detected in the patch current thus, over 10 mmol/L Na(+) reduced the seal current to 38%. These results were corroborated by the total current experiments where the K(+) current elicited in injected oocytes with apical purified membrane was blocked by Ba(+2) and TEA. The total current was also affected by Na(+), becoming larger when a Na(+)-free solution was used. Our results show the existence of at least two types of Ba(+2)-sensitive K(+) channels including a TEA sensitive sub-population, and some of them Na(+) sensitive K(+) channels. These channels could be the conductive pathways proposed previously for this cation in placental hSTB. Our novel contribution has been to successfully obtain K(+) channel recordings in systems suitable for electrophysiological studies of isolated apical membranes.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "10463618",
+    "pmcid": "",
+    "title": "Augmentation of transvascular transport of macromolecules and nanoparticles in tumors using vascular endothelial growth factor.",
+    "year": "1999",
+    "journal": "Cancer research",
+    "doi": "",
+    "authors": "Monsky; Fukumura; Gohongi; Ancukiewcz; Weich",
+    "abstract": "The goal of this investigation was to measure changes in vascular permeability, pore cutoff size, and number of transvascular transport pathways as a function of time and in response to vascular endothelial growth factor (VEGF), placenta growth factor (PIGF-1 and PIGF-2), or basic fibroblast growth factor (bFGF). Two human and two murine tumors were implanted in the dorsal skin chamber or cranial window. Vascular permeability to BSA (approximately 7 nm in diameter) and extravasation of polyethylene glycol-stabilized long-circulating liposomes (100-400 nm) and latex microspheres (approximately 800 nm) were determined by intravital microscopy. Vascular permeability was found to be temporally heterogeneous. VEGF superfusion (100 ng/ml) significantly increased vascular permeability to albumin in normal s.c. vessels, whereas a 30-fold higher dose of VEGF (3000 ng/ml) was required to increase permeability in pial vessels, suggesting that different tissues exhibit different dose thresholds for VEGF activity. Furthermore, VEGF superfusion (1000 ng/ml) increased vascular permeability to albumin in a hypopermeable human glioma xenograft in cranial window, whereas VEGF superfusion (10-1000 ng/ml) failed to increase permeability in a variety of hyperpermeable tumors grown in dorsal skin chamber. Interestingly, low-dose VEGF treatment (10 ng/ml) doubled the maximum pore size (from 400 to 800 nm) and significantly increased the frequency of large (400 nm) pores in human colon carcinoma xenografts. PIGF-1, PIGF-2, or bFGF did not show any significant effect on permeability or pore size in tumors. These findings suggest that exogenous VEGF may be useful for augmenting the transvascular delivery of larger antineoplastic agents such as gene targeting vectors and encapsulated drug carriers (typical range, 100-300 nm) into tumors.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Targeting"
+    ]
+  },
+  {
+    "pmid": "9988821",
+    "pmcid": "",
+    "title": "Regulation of human placental chloride channel by arachidonic acid and other cis unsaturated fatty acids.",
+    "year": "1999",
+    "journal": "American journal of obstetrics and gynecology",
+    "doi": "",
+    "authors": "Riquelme; Parra",
+    "abstract": "OBJECTIVE: Arachidonic acid has been implicated in the modulation of various transport processes, including conductive chloride transport in brush border membranes in the human placenta. The purpose of this work was to explore the effects of some cis unsaturated fatty acids on the electrophysiologic properties of the maxi chloride channels present in apical membranes from human placenta. STUDY DESIGN: Apical membrane chloride channels from human term placentas were reconstituted in giant liposomes. These cell-sized liposomes, generated by a cycle of dehydration and rehydration, are suitable for electrophysiologic studies by the patch-clamp method. RESULTS: Low micromolar concentrations of arachidonic acid reversibly inhibit maxi chloride channels in excised patches. Other cis unsaturated fatty acids, such as oleic and linoleic acids, show similar blockade. The inhibition was dose dependent. The maxi chloride channel can also be inhibited by 4,4 -diisothiocyanatostilbene-2,2 -disulfonic acid, a known chloride channel inhibitor. CONCLUSIONS: Our results identify the apical membrane maxi chloride channel as a possible electrophysi ologic counterpart of 4,4 -diisothiocyanatostilbene-2, 2 -disulfonic acid and cis unsaturated fatty acid-inhibited conductance previously described in brush border membranes of the human placenta. From a functional point of view the control of these channels by arachidonic acid may be of great importance in placental physiologic characteristics. Regulation of chloride channels could be important in the control of electrolyte and fluid transfer across the placenta. In addition, if these channels contribute to setting the membrane potential their regulation could have consequences for nutrient transport and delivery to the fetus. The electrophysiologic identification of these channels and their regulation might help to unravel their possible role in transplacental transport in normal and pathologic placental tissue.",
+    "relevance": 7,
+    "tags": [
+      "Lipo",
+      "Placenta",
+      "Biodist"
+    ]
+  },
+  {
+    "pmid": "39900626",
+    "pmcid": "",
+    "title": "Publisher Correction: Placenta-tropic VEGF mRNA lipid nanoparticles ameliorate murine pre-eclampsia.",
+    "year": "2025",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-025-08605-y",
+    "authors": "Swingle; Hamilton; Safford; Geisler; Thatte",
+    "abstract": "",
+    "relevance": 6,
+    "tags": [
+      "Lipo",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "38657380",
+    "pmcid": "",
+    "title": "Polymeric optical fiber biosensor with PAMAM dendrimer-based surface modification and PlGF detection for pre-eclampsia diagnosis.",
+    "year": "2024",
+    "journal": "Biosensors & bioelectronics",
+    "doi": "10.1016/j.bios.2024.116312",
+    "authors": "Chaudhary; Madaboosi; Satija; Nandagopal; Srinivasan",
+    "abstract": "Pre-eclampsia (PE) is a life-threatening complication that occurs during pregnancy, affecting a large number of pregnant women and newborns worldwide. Rapid, on-site and affordable screening of PE at an early stage is necessary to ensure timely treatment and minimize both maternal and neonatal morbidity and mortality rates. Placental growth factor (PlGF) is an angiogenic blood biomarker used for PE diagnosis. Herein, we report the plasmonic fiber optic absorbance biosensor (P-FAB) strategy for detecting PlGF at femtomolar concentration using polymethyl methacrylate (PMMA) based U-bent polymeric optical fiber (POF) sensor probes. A novel poly(amidoamine) (PAMAM) dendrimer based PMMA surface modification is established to obtain a greater immobilization of the bioreceptors compared to a linear molecule like hexamethylenediamine (HMDA). Plasmonic sandwich immunoassay was realized by immobilizing the mouse anti-PlGF (3H1) on the U-bent POF sensor probe surface and gold nanoparticles (AuNP) labels conjugated with mouse anti-PlGF (6H9). The POF sensor probes could measure PlGF within 30 min using the P-FAB strategy. The limit-of-detection (LoD) was found to be 0.19 pg/mL and 0.57 pg/mL in phosphate-buffered saline and 10× diluted serum, respectively. The clinical sample testing, with eleven positive and eleven negative preeclamptic pregnancy samples, successfully confirmed the accuracy, reliability, specificity, and sensitivity of the P-FAB based POF sensor platform, thereby paving the way for cost-effective technology for PlGF detection and its potential for pre-eclampsia diagnosis.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "38852725",
+    "pmcid": "",
+    "title": "Construction and evaluation of AuNPs enhanced electrochemical immunosensors with [Fe(CN)",
+    "year": "2024",
+    "journal": "International journal of biological macromolecules",
+    "doi": "10.1016/j.ijbiomac.2024.132963",
+    "authors": "Zhao; Chen; Shan; Zhan; Han",
+    "abstract": "Human chorionic gonadotropin (HCG), a vital protein for pregnancy determination and a marker for trophoblastic diseases, finds application in monitoring early pregnancy and ectopic pregnancy. This study presents an innovative approach employing electrochemical immunosensors for enhanced HCG detection, utilizing Anti-HCG antibodies and gold nanoparticles (AuNPs) in the sensor platform. Two sensor configurations were optimized: BSA/Anti-HCG/c-AuNPs/MEL/e-AuNPs/SPCE with [Fe(CN)6]3-/4- as a redox probe (1) and BSA/Anti-HCG/PPy/e-AuNPs/SPCE using polypyrrole (PPy) as a redox probe (2). The first sensor offers linear correlation in the 0.10-500.00 pg∙mL-1 HCG range, with a limit of detection (LOD) of 0.06 pg∙mL-1, sensitivity of 32.25 μA∙pg-1∙mL∙cm-2, RSD <2.47 %, and a recovery rate of 101.03-104.81 %. The second sensor widens the HCG detection range (40.00 fg∙mL-1-5.00 pg∙mL-1) with a LOD of 16.53 fg∙mL-1, ensuring precision (RSD <1.04 %) and a recovery range of 94.61-106.07 % in serum samples. These electrochemical immunosensors have transformative potential in biomarker detection, offering enhanced sensitivity, selectivity, and stability for advanced healthcare diagnostics.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "37150288",
+    "pmcid": "",
+    "title": "Gold nanoparticle intratesticular injections as a potential animal sterilization tool: Long-term reproductive and toxicological implications.",
+    "year": "2023",
+    "journal": "Toxicology",
+    "doi": "10.1016/j.tox.2023.153543",
+    "authors": "Coimbra; Dantas; de Andrade; Brener; Viana",
+    "abstract": "This study aimed to evaluate the gold nanoparticles (AuNPs) animal sterilizing potential after intratesticular injections and long-term adverse reproductive and systemic effects. Adult male Wistar rats were divided into control and gold nanoparticle (AuNPs) groups. The rats received 200 µL of saline or AuNPs solution (16 µg/mL) on experimental days 1 and 7 (ED1 and ED7). After 150 days, the testicular blood flow was measured, and the rats were mated with females. After mating, male animals were euthanized for histological, cellular, and molecular evaluations. The female fertility indices and fetal development were also recorded. The results indicated increased blood flow in the testes of treated animals. Testes from treated rats had histological abnormalities, shorter seminiferous epithelia, and oxidative stress. Although the sperm concentration was lower in the AuNP-treated rats, there were no alterations in sperm morphology. Animals exposed to AuNPs had decreased male fertility indices, and their offspring had lighter and less efficient placentas. Additionally, the anogenital distance was longer in female fetuses. There were no changes in the histology of the kidney and liver, the lipid profile, and the serum levels of LH, testosterone, AST, ALT, ALP, albumin, and creatinine. The primary systemic effect was an increase in MDA levels in the liver and kidney, with only the liver experiencing an increase in CAT activity. In conclusion, AuNPs have a long-term impact on reproduction with very slight alterations in animal health. The development of reproductive biotechnologies that eliminate germ cells or treat local cancers can benefit from using AuNPs.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "31632005",
+    "pmcid": "PMC6701542",
+    "title": "Glucose oxidase complexed gold-graphene nanocomposite on a dielectric surface for glucose detection: a strategy for gestational diabetes mellitus.",
+    "year": "2019",
+    "journal": "International journal of nanomedicine",
+    "doi": "10.2147/IJN.S222238",
+    "authors": "Ge; Lakshmipriya; Gopinath; Anbu; Chen",
+    "abstract": "BACKGROUND: Gestational diabetes mellitus is a commonly occurring metabolic disorder during pregnancy, affecting >4% of pregnant women. It is generally defined as the intolerance of glucose with the onset or initial diagnosis during pregnancy. This illness affects the placenta and poses a threat to the baby as it affects the supply of proper oxygen and nutrients. PURPOSE: Due to the high percentage of affected pregnant women, it should be mandatory to evaluate glucose levels during pregnancy and there is a need for a continuous monitoring system. METHODS: Herein, the investigators modified the interdigitated (di)electrodes (IDE) sensing surface to detect the glucose on covalently immobilized glucose oxidase (GOx) with the graphene. The characterization of graphene and gold nanoparticle (GNP) was performed by high-resolution microscopy. RESULTS: Sensitivity was found to be 0.06 mg/mL and to enhance the detection, GOx was complexed with GNP. GNP-GOx was improved the sensitive detection twofold from 0.06 to 0.03 mg/mL, and it also displayed higher levels of current changes at all the concentrations of glucose that were tested. High-performance of the above IDE sensing system was attested by the specificity, reproducibility and higher sensitivity detections. Further, the linear regression analysis indicated the limit of detection to be between 0.02 and 0.03 mg/mL. CONCLUSION: This study demonstrated the potential strategy with nanocomposite for diagnosing gestational diabetes mellitus.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "28012775",
+    "pmcid": "",
+    "title": "Comparison of functional assays used in the clinical development of a placental malaria vaccine.",
+    "year": "2017",
+    "journal": "Vaccine",
+    "doi": "10.1016/j.vaccine.2016.12.028",
+    "authors": "Pehrson; Heno; Adams; Resende; Mathiesen",
+    "abstract": "BACKGROUND: Malaria in pregnancy is associated with significant morbidity in pregnant women and their offspring. Plasmodium falciparum infected erythrocytes (IE) express VAR2CSA that mediates binding to chondroitin sulphate A (CSA) in the placenta. Two VAR2CSA-based vaccines for placental malaria are in clinical development. The purpose of this study was to evaluate the robustness and comparability of binding inhibition assays used in the clinical development of placental malaria vaccines. METHODS: The ability of sera from animals immunised with different VAR2CSA constructs to inhibit IE binding to CSA was investigated in three in vitro assays using 96-well plates, petri dishes, capillary flow and an ex vivo placental perfusion assay. RESULTS: The inter-assay variation was not uniform between assays and ranged from above ten-fold in the flow assay to two-fold in the perfusion assay. The intra-assay variation was highest in the petri dish assay. A positive correlation between IE binding avidity and the level of binding after antibody inhibition in the petri dish assay indicate that high avidity IE binding is more difficult to inhibit. The highest binding inhibition sensitivity was found in the 96-well and petri dish assays compared to the flow and perfusion assays where binding inhibition required higher antibody titers. CONCLUSIONS: The inhibitory capacity of antibodies is not easily translated between assays and the high sensitivity of the 96-well and petri dish assays stresses the need for comparing serial dilutions of serum. Furthermore, IE binding avidity must be in the same range when comparing data from different days. There was an overall concordance in the capacity of antibody-mediated inhibition, when comparing the in vitro assays with the perfusion assay, which more closely represents in vivo conditions. Importantly the ID1-ID2a protein in a liposomal formulation, currently in a phase I trial, effectively induced antibodies that inhibited IE adhesion in placental tissue.",
+    "relevance": 6,
+    "tags": [
+      "Lipo",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "24004569",
+    "pmcid": "",
+    "title": "Transplacental clastogenic and epigenetic effects of gold nanoparticles in mice.",
+    "year": "2013",
+    "journal": "Mutation research",
+    "doi": "10.1016/j.mrfmmm.2013.08.006",
+    "authors": "Balansky; Longobardi; Ganchev; Iltcheva; Nedyalkov",
+    "abstract": "The broad application of nanotechnology in medicine, biology, and pharmacology is leading to a dramatic increase of the risk of direct contact of nanoproducts, among which gold nanoparticles (AuNP), with the human organism. The present study aimed at evaluating in vivo the genotoxicity of AuNPs with average size of 40 nm and 100 nm. A single intraperitoneal treatment of adult male and female Swiss mice (strain H) with AuNPs, at a dose of 3.3 mg/kg body weight, had no effect on the frequency of micronucleated polychromatic erythrocytes (MN PCEs) in bone marrow. Conversely, the transplacental treatment with AuNP-100 nm, but not with AuNP-40 nm, applied intraperitoneally at a dose of 3.3 mg/kg to pregnant mice on days 10, 12, 14, and 17 of gestation, resulted in a significant increase in the frequency of MN PCEs in both liver and peripheral blood of mouse fetuses. In parallel, the same treatment with AuNP-100 nm, but not with AuNP-40 nm, produced significant changes in microRNA expression. In particular, out of 1281 mouse microRNAs analyzed, 28 were dys-regulated more than two-fold and to a statistically significant extent in fetus lung, and 5 were up-regulated in fetal liver. Let-7a and miR-183 were significantly up-regulated in both organs. The data presented herein demonstrate for the first time the transplacental size-dependent clastogenic and epigenetic effects of AuNPs in mouse fetus, thus highlighting new aspects concerning the putative genotoxicity of AuNPs during a vulnerable period of life.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "23544290",
+    "pmcid": "",
+    "title": "Pulmonary blastomycosis during pregnancy: case report and review of the literature.",
+    "year": "2013",
+    "journal": "Tennessee medicine : journal of the Tennessee Medical Association",
+    "doi": "",
+    "authors": "Youssef; Raval; El-Abbassi; Patel",
+    "abstract": "Blastomycosis rarely presents in pregnancy. Pregnancy is a state of partial immunodeficiency that predisposes to blastomyces infection, especially in endemic areas. Blastomycosis in pregnancy has been reported in a few female patients and their offspring. We are reporting a 32-year-old pregnant patient at 34 weeks of gestation who presented with a lung mass. The cytopathological exam of the biopsy taken by fine needle aspiration showed evidence of Blastomyces organisms. She received Liposomal Amphotericin B and was followed closely until delivery. The placenta was examined and did not show evidence of infection in the fetus. Healthcare professionals in endemic areas such as Tennessee should be aware of blastomycosis in pregnancy.",
+    "relevance": 6,
+    "tags": [
+      "Lipo",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "23242175",
+    "pmcid": "PMC3118990",
+    "title": "A quantitative evaluation of cell migration by the phagokinetic track motility assay.",
+    "year": "2012",
+    "journal": "Journal of visualized experiments : JoVE",
+    "doi": "10.3791/4165",
+    "authors": "Nogalski; Chan; Stevenson; Collins-McMillen; Yurochko",
+    "abstract": "Cellular motility is an important biological process for both unicellular and multicellular organisms. It is essential for movement of unicellular organisms towards a source of nutrients or away from unsuitable conditions, as well as in multicellular organisms for tissue development, immune surveillance and wound healing, just to mention a few roles(1,2,3). Deregulation of this process can lead to serious neurological, cardiovascular and immunological diseases, as well as exacerbated tumor formation and spread(4,5). Molecularly, actin polymerization and receptor recycling have been shown to play important roles in creating cellular extensions (lamellipodia), that drive the forward movement of the cell(6,7,8). However, many biological questions about cell migration remain unanswered. The central role for cellular motility in human health and disease underlines the importance of understanding the specific mechanisms involved in this process and makes accurate methods for evaluating cell motility particularly important. Microscopes are usually used to visualize the movement of cells. However, cells move rather slowly, making the quantitative measurement of cell migration a resource-consuming process requiring expensive cameras and software to create quantitative time-lapsed movies of motile cells. Therefore, the ability to perform a quantitative measurement of cell migration that is cost-effective, non-laborious, and that utilizes common laboratory equipment is a great need for many researchers. The phagokinetic track motility assay utilizes the ability of a moving cell to clear gold particles from its path to create a measurable track on a colloidal gold-coated glass coverslip(9,10). With the use of freely available software, multiple tracks can be evaluated for each treatment to accomplish statistical requirements. The assay can be utilized to assess motility of many cell types, such as cancer cells(11,12), fibroblasts(9), neutrophils(13), skeletal muscle cells(14), keratinocytes(15), trophoblasts(16), endothelial cells(17), and monocytes(10,18-22). The protocol involves the creation of slides coated with gold nanoparticles (Au°) that are generated by a reduction of chloroauric acid (Au(3+)) by sodium citrate. This method was developed by Turkevich et al. in 1951(23) and then improved in the 1970s by Frens et al.(24,25). As a result of this chemical reduction step, gold particles (10-20 nm in diameter) precipitate from the reaction mixture and can be applied to glass coverslips, which are then ready for use in cellular migration analyses(9,26,27). In general, the phagokinetic track motility assay is a quick, quantitative and easy measure of cellular motility. In addition, it can be utilized as a simple high-throughput assay, for use with cell types that are not amenable to time-lapsed imaging, as well as other uses depending on the needs of the researcher. Together, the ability to quantitatively measure cellular motility of multiple cell types without the need for expensive microscopes and software, along with the use of common laboratory equipment and chemicals, make the phagokinetic track motility assay a solid choice for scientists with an interest in understanding cellular motility.",
+    "relevance": 6,
+    "tags": [
+      "Au",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "12532277",
+    "pmcid": "",
+    "title": "17beta-estradiol and tamoxifen regulate a maxi-chloride channel from human placenta.",
+    "year": "2003",
+    "journal": "The Journal of membrane biology",
+    "doi": "",
+    "authors": "Henriquez; Riquelme",
+    "abstract": "Steroid hormones have been implicated in the modulation of several transport processes, including conductive chloride transport in epithelial cells. Micromolar concentrations of these hormones have been determined in blood of pregnant women. The purpose of this work was to explore the effects of 17beta-Estradiol, a steroid hormone, on the biophysical properties of the Maxi chloride channel present in apical membranes from human placental syncytiotrophoblast. Apical membrane chloride channels from human term placentas were reconstituted in giant liposomes suitable for electrophysiologic studies by the patch-clamp method. Low micromolar concentrations of 17beta-Estradiol inhibit the Maxi chloride channels in excised patches in a potential-dependent manner. The addition of 1 mM 17beta-Estradiol to the bath solution decreased the total current in the patch from 100% control to 71% at -40 mV holding potential and the current was not affected by 17beta-Estradiol at + 40 mV. However, the presence of the hormone did not affect the single-channel conductance, therefore its effect must be due to modulation of its open probability (Po). Interestingly, 17alpha-Estradiol did not change the total current in the patch. Tamoxifen, an antiestrogen, also showed inhibition, but in a voltage-independent manner. Our results suggest that the Maxi Cl- channel from human term placenta may be regulated by direct interaction of both compounds with the channel. From a functional point of view, the control of these channels by steroid hormones may be of great importance in placental physiology and their regulation may help to unravel their possible role in transplacental transport.",
+    "relevance": 6,
+    "tags": [
+      "Lipo",
+      "Placenta"
+    ]
+  },
+  {
+    "pmid": "7573235",
+    "pmcid": "",
+    "title": "A chloride channel from human placenta reconstituted into giant liposomes.",
+    "year": "1995",
+    "journal": "American journal of obstetrics and gynecology",
+    "doi": "",
+    "authors": "Riquelme; Stutzin; Barros; Liberona",
+    "abstract": "OBJECTIVE: Ion channels play important roles in epithelial transport, but they are difficult to access for conventional electrophysiologic studies in intact placenta. The purpose of this work was to explore the suitability of purified trophoblast plasma membrane as a source of ion channels for reconstitution in artificial lipid membranes. STUDY DESIGN: Human placental brush border membranes were purified by differential and gradient centrifugation and fused with small liposomes. Giant liposomes were then generated by a cycle of dehydration and rehydration. These giant liposomes are suitable for electrophysiologic studies and were probed for the presence of active ion channels by the patch-clamp method. RESULTS: The results reported here indicate the presence of a high conductance chloride channel showing some similarities with \"maxi\" chloride channels described in secreting and absorbing epithelia. The channel had a slight outward rectification with conductances of 232 and 300 pS at negative and positive potentials, respectively. CONCLUSIONS: For the first time successful reconstitution of a human placental ion channel is achieved in a system suited for electrophysiologic studies. The chloride channel described might play a role in transplacental transport.",
+    "relevance": 6,
+    "tags": [
+      "Lipo",
+      "Placenta"
+    ]
+  }
+]

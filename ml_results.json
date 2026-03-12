@@ -1,0 +1,188 @@
+{
+  "translocation_detected": [
+    {
+      "model": "Extra Trees",
+      "accuracy": 0.7321,
+      "auc": 0.8014,
+      "f1": 0.7561
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7321,
+      "auc": 0.7989,
+      "f1": 0.7563
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.7201,
+      "auc": 0.7612,
+      "f1": 0.7464
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.7173,
+      "auc": 0.7564,
+      "f1": 0.7414
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.7293,
+      "auc": 0.7512,
+      "f1": 0.7533
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.6725,
+      "auc": 0.7234,
+      "f1": 0.7013
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.649,
+      "auc": 0.6768,
+      "f1": 0.6403
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.6251,
+      "auc": 0.6324,
+      "f1": 0.6453
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.5892,
+      "auc": 0.5523,
+      "f1": 0.6825
+    },
+    {
+      "model": "SVM",
+      "accuracy": 0.4701,
+      "auc": 0.5077,
+      "f1": 0.1385
+    }
+  ],
+  "placental_accumulation": [
+    {
+      "model": "Extra Trees",
+      "accuracy": 0.9359,
+      "auc": 0.8595,
+      "f1": 0.966
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.9443,
+      "auc": 0.8156,
+      "f1": 0.9707
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9486,
+      "auc": 0.7944,
+      "f1": 0.9734
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7428,
+      "auc": 0.7682,
+      "f1": 0.8417
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.9103,
+      "auc": 0.7613,
+      "f1": 0.9515
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9486,
+      "auc": 0.7449,
+      "f1": 0.9731
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9359,
+      "auc": 0.7147,
+      "f1": 0.9663
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.846,
+      "auc": 0.6612,
+      "f1": 0.9133
+    },
+    {
+      "model": "SVM",
+      "accuracy": 0.2132,
+      "auc": 0.4909,
+      "f1": 0.1814
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.94,
+      "auc": 0.4703,
+      "f1": 0.969
+    }
+  ],
+  "cytotoxicity_observed": [
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.864,
+      "auc": 0.9236,
+      "f1": 0.8495
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.8477,
+      "auc": 0.923,
+      "f1": 0.8256
+    },
+    {
+      "model": "Extra Trees",
+      "accuracy": 0.845,
+      "auc": 0.9216,
+      "f1": 0.8271
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.845,
+      "auc": 0.9214,
+      "f1": 0.8246
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.8287,
+      "auc": 0.9124,
+      "f1": 0.812
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.8178,
+      "auc": 0.8647,
+      "f1": 0.7959
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.7933,
+      "auc": 0.8327,
+      "f1": 0.7826
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.6029,
+      "auc": 0.6745,
+      "f1": 0.5827
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.5516,
+      "auc": 0.608,
+      "f1": 0.6416
+    },
+    {
+      "model": "SVM",
+      "accuracy": 0.5382,
+      "auc": 0.5389,
+      "f1": 0.1208
+    }
+  ]
+}
