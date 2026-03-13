@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NanoPlacentaDB - הסבר הניתוח</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #0f0f1a;
+    color: #e0e0f0;
+    line-height: 1.9;
+    direction: rtl;
+}
+.container { max-width: 800px; margin: 0 auto; padding: 24px; }
+
+header {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    padding: 40px 24px;
+    text-align: center;
+    border-bottom: 2px solid #c4951a;
+}
+header h1 { color: #f0c040; font-size: 26px; margin-bottom: 8px; }
+header p { color: #a0a0b8; font-size: 15px; }
+
+.section {
+    background: #16213e;
+    border-radius: 12px;
+    padding: 28px;
+    margin: 24px 0;
+    border: 1px solid #2a2a4a;
+}
+.section h2 {
+    color: #f0c040;
+    font-size: 20px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2a2a4a;
+}
+.section h3 {
+    color: #448aff;
+    font-size: 17px;
+    margin: 20px 0 10px;
+}
+
+p { margin-bottom: 14px; color: #d0d0e0; font-size: 15px; }
+b, strong { color: #f0c040; }
+.highlight { color: #00c853; font-weight: bold; }
+.warning { color: #ff5252; font-weight: bold; }
+.note { color: #ff9800; }
+
+.analogy {
+    background: #1a2a3a;
+    border-right: 4px solid #448aff;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+    font-size: 14px;
+    color: #b0c0e0;
+}
+.analogy::before { content: "💡 "; }
+
+.result-box {
+    background: linear-gradient(135deg, #1a2a1a, #16213e);
+    border: 1px solid #00c853;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 16px 0;
+    text-align: center;
+}
+.result-box .big { font-size: 22px; color: #00c853; font-weight: bold; }
+
+.metric-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+.metric-card {
+    flex: 1;
+    min-width: 140px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+.metric-card .val { font-size: 24px; font-weight: bold; }
+.metric-card .lbl { font-size: 12px; color: #a0a0b8; margin-top: 4px; }
+
+.step {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+    align-items: flex-start;
+}
+.step-num {
+    width: 36px;
+    height: 36px;
+    background: #f0c040;
+    color: #0f0f1a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+.step-text { flex: 1; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+}
+th {
+    background: #1a1a2e;
+    color: #f0c040;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #c4951a;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #2a2a4a;
+}
+tr:hover { background: #1e2a45; }
+
+.warning-box {
+    background: rgba(255, 152, 0, 0.1);
+    border: 1px solid #ff9800;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+.warning-box h4 { color: #ff9800; margin-bottom: 8px; }
+
+.nav-links {
+    text-align: center;
+    margin: 32px 0 16px;
+}
+.nav-links a {
+    display: inline-block;
+    color: #f0c040;
+    text-decoration: none;
+    background: #1a1a2e;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #c4951a;
+    margin: 4px;
+    transition: background 0.3s;
+}
+.nav-links a:hover { background: #2a2a4a; }
+
+ul {
+    padding-right: 24px;
+    margin: 8px 0 14px;
+}
+li { margin-bottom: 8px; color: #c0c0d0; font-size: 14px; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #707088;
+    font-size: 12px;
+    border-top: 1px solid #2a2a4a;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>הסבר הניתוח - בשפה פשוטה</h1>
+    <p>מדריך למי שרוצה להבין מה עשינו, איך, ומה המשמעות של התוצאות</p>
+</header>
+
+<div class="container">
+
+<div class="nav-links">
+    <a href="/">כלי האופטימיזציה</a>
+    <a href="/data.html">מאגר הנתונים</a>
+</div>
+
+<!-- ═══════════ SECTION 1: WHAT IS THIS ═══════════ -->
+<div class="section">
+    <h2>מה זה הכלי הזה ולמה הוא נבנה?</h2>
+
+    <p>
+        שירי חוקרת חלקיקי זהב זעירים (ננומטריים) שמוזרקים לעכברות בהריון.
+        המטרה: שהחלקיקים <b>יגיעו לשלייה וישארו שם</b> (כדי לתת טיפול תרופתי לשלייה),
+        אבל <b>לא יעברו לעובר</b> (כדי לא לפגוע בו).
+    </p>
+
+    <p>
+        שירי כבר עשתה כמה ניסויים במעבדה עם חלקיקי זהב בציפויים שונים
+        (mPEG, אינסולין, גלוקוז). עכשיו היא רוצה לדעת:
+        <b>מה השילוב הבא שכדאי לה לנסות?</b>
+    </p>
+
+    <div class="analogy">
+        דמיינו שאתם רוצים לבשל מנה מושלמת. יש לכם 16 תבלינים, 12 רטבים, 7 טמפרטורות בישול...
+        זה 20,000 שילובים אפשריים. במקום לנסות את כולם - אתם שואלים מחשב
+        שקרא 486 מתכונים וילמד מהם מה עובד ומה לא.
+    </div>
+
+    <p>
+        זה בדיוק מה שעשינו: אספנו <b>486 ניסויים</b> מ-<b>372 מאמרים מדעיים</b>,
+        ולימדנו מחשב למצוא דפוסים - אילו מאפיינים של חלקיק גורמים לו
+        להישאר בשלייה ולא לעבור לעובר.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 2: THE DATA ═══════════ -->
+<div class="section">
+    <h2>על הנתונים - מאיפה הם?</h2>
+
+    <p>
+        חיפשנו בספרייה המדעית PubMed את כל המאמרים שפורסמו על
+        ננו-חלקיקים ושליות. מצאנו <b>486 ניסויים</b> מ-<b>372 מחקרים שונים</b>.
+    </p>
+
+    <p>לכל ניסוי שמנו לב ל-<b>41 פרמטרים</b>, ביניהם:</p>
+    <ul>
+        <li><b>חומר הליבה</b> - זהב, כסף, פולימר, ליפוזום, ועוד</li>
+        <li><b>גודל החלקיק</b> - כמה ננומטרים (nm)</li>
+        <li><b>ציפוי</b> - מה עוטף את החלקיק (PEG, mPEG, BSA...)</li>
+        <li><b>ליגנד מכוון</b> - מולקולה שמכוונת את החלקיק למקום ספציפי</li>
+        <li><b>מטען חשמלי</b> - חיובי, שלילי, או ניטרלי</li>
+        <li><b>מודל הניסוי</b> - בעכברות, בחולדות, או בתאים</li>
+        <li><b>יום ההריון</b> - באיזה שלב של ההריון הוזרק</li>
+    </ul>
+
+    <p>ולכל ניסוי רשמנו 3 תוצאות:</p>
+    <div class="metric-row">
+        <div class="metric-card">
+            <div class="val" style="color:#00c853;">✓/✗</div>
+            <div class="lbl">האם הצטבר בשלייה?</div>
+        </div>
+        <div class="metric-card">
+            <div class="val" style="color:#ff5252;">✓/✗</div>
+            <div class="lbl">האם עבר לעובר?</div>
+        </div>
+        <div class="metric-card">
+            <div class="val" style="color:#ff9800;">✓/✗</div>
+            <div class="lbl">האם גרם נזק לתאים?</div>
+        </div>
+    </div>
+
+    <p style="font-size:13px; color:#a0a0b8;">
+        מתוך 486 הניסויים, 59 עסקו בחלקיקי זהב ספציפית. המודל למד מכל 486
+        ומכליל את הידע גם לחלקיקי זהב.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 3: HOW ML WORKS ═══════════ -->
+<div class="section">
+    <h2>איך המחשב "לומד"?</h2>
+
+    <p>השתמשנו בשיטה שנקראת <b>למידת מכונה (Machine Learning)</b>. ככה זה עובד:</p>
+
+    <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+            <b>אימון:</b> המחשב מקבל את 486 הניסויים עם התוצאות שלהם.
+            הוא מנסה למצוא חוקים - למשל: "כשהציפוי הוא PEG והמטען ניטרלי,
+            בדרך כלל החלקיק לא עובר לעובר".
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+            <b>בדיקה:</b> כדי לוודא שהמחשב לא "שינן" את הנתונים אלא באמת הבין,
+            אנחנו מסתירים ממנו 20% מהנתונים, מלמדים אותו על 80%,
+            ואז בודקים אם הוא מצליח לנחש נכון את ה-20% שהסתרנו.
+            חוזרים על זה 5 פעמים עם חלקים שונים (נקרא "5-fold cross-validation").
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+            <b>חיזוי:</b> אחרי שהמחשב למד, אנחנו נותנים לו שילובים חדשים
+            (למשל: "זהב + PEG + ליגנד RGD + 15nm + ניטרלי") והוא מנבא
+            מה הסיכוי שהחלקיק יצטבר בשלייה, יעבור לעובר, או יגרום נזק.
+        </div>
+    </div>
+
+    <div class="analogy">
+        זה כמו רופא מנוסה שראה 486 מקרים. הוא לא יודע בוודאות מה יקרה
+        במקרה הבא, אבל יש לו אינטואיציה מבוססת ניסיון. המחשב עושה בדיוק את זה -
+        רק עם מתמטיקה במקום אינטואיציה.
+    </div>
+
+    <h3>האלגוריתם שנבחר</h3>
+    <p>
+        ניסינו 5 אלגוריתמים שונים ובחרנו את הטוב ביותר לכל משימה:
+    </p>
+    <ul>
+        <li><b>Extra Trees</b> (נבחר להצטברות ולמעבר) - בונה מאות "עצי החלטה"
+            ומצביע לפי רוב. כל עץ שואל שאלות כמו "האם הגודל > 20nm?
+            האם הציפוי PEG?" ומגיע לתשובה.</li>
+        <li><b>Gradient Boosting</b> (נבחר לרעילות) - בונה עצים בזה אחר זה,
+            כשכל עץ מנסה לתקן את הטעויות של הקודם.</li>
+    </ul>
+</div>
+
+<!-- ═══════════ SECTION 4: HOW GOOD IS IT ═══════════ -->
+<div class="section">
+    <h2>כמה טוב המודל? מה אפשר לסמוך עליו?</h2>
+
+    <p>מדדנו את המודל ב-3 מדדים:</p>
+
+    <table>
+        <tr>
+            <th>מה מנבאים</th>
+            <th>AUC</th>
+            <th>דיוק</th>
+            <th>משמעות</th>
+        </tr>
+        <tr>
+            <td>הצטברות בשלייה</td>
+            <td style="color:#00c853; font-weight:bold;">0.886</td>
+            <td>94%</td>
+            <td>טוב מאוד</td>
+        </tr>
+        <tr>
+            <td>מעבר לעובר</td>
+            <td style="color:#ff9800; font-weight:bold;">0.822</td>
+            <td>74%</td>
+            <td>טוב</td>
+        </tr>
+        <tr>
+            <td>רעילות לתאים</td>
+            <td style="color:#00c853; font-weight:bold;">0.926</td>
+            <td>85%</td>
+            <td>מצוין</td>
+        </tr>
+    </table>
+
+    <h3>מה זה AUC?</h3>
+    <div class="analogy">
+        AUC (Area Under Curve) מודד עד כמה המודל מצליח להבדיל בין "כן" ל"לא".
+        <br><br>
+        <b>0.5</b> = הטלת מטבע, ניחוש אקראי, חסר ערך<br>
+        <b>0.7-0.8</b> = סביר, יש יכולת חיזוי<br>
+        <b>0.8-0.9</b> = טוב, אפשר להסתמך<br>
+        <b>0.9+</b> = מצוין<br><br>
+        המודלים שלנו: <b>0.82 עד 0.93</b> = טוב עד מצוין.
+    </div>
+
+    <h3>למה "דיוק" זה לא מספיק?</h3>
+    <p>
+        עבור "הצטברות בשלייה", הדיוק הוא 94% - נשמע מעולה!
+        אבל יש מלכוד: <b>94% מהניסויים בנתונים הראו הצטברות</b>.
+        אז מודל שתמיד אומר "כן" יקבל דיוק של 94% בלי ללמוד כלום.
+    </p>
+    <p>
+        לכן AUC חשוב יותר - הוא מודד את יכולת <b>ההבחנה</b> האמיתית.
+        AUC של 0.886 אומר שהמודל באמת לומד משהו, לא רק "מנחש כן".
+    </p>
+
+    <div class="warning-box">
+        <h4>אזהרה חשובה על ההצטברות</h4>
+        <p style="font-size:14px;">
+            כמעט כל הננו-חלקיקים שנבדקו בספרות הצטברו בשלייה (94%).
+            לכן המודל מנבא הצטברות גבוהה כמעט תמיד.
+            <b>ההבדל העיקרי בין ציפויים שונים הוא לא "האם יצטבר"
+            אלא "כמה יעבור לעובר".</b>
+            לכן <b>שיעור המעבר לעובר</b> הוא המדד החשוב ביותר בניתוח.
+        </p>
+    </div>
+</div>
+
+<!-- ═══════════ SECTION 5: THE SCORING ═══════════ -->
+<div class="section">
+    <h2>איך חישבנו את "הציון המורכב"?</h2>
+
+    <p>
+        לכל שילוב של חלקיק, המודל נותן 3 הסתברויות:
+    </p>
+    <ul>
+        <li>הסיכוי שיצטבר בשלייה (רוצים <span class="highlight">גבוה</span>)</li>
+        <li>הסיכוי שיעבור לעובר (רוצים <span class="warning">נמוך</span>)</li>
+        <li>הסיכוי לרעילות (רוצים <span class="warning">נמוך</span>)</li>
+    </ul>
+
+    <p>שילבנו את שלושתם לציון אחד לפי הנוסחה:</p>
+
+    <div class="result-box">
+        <div style="font-size:16px; color:#f0c040;">
+            ציון = (הצטברות × 2) − (מעבר × 1.5) − (רעילות × 1.0)
+        </div>
+    </div>
+
+    <p>למה המשקולות האלה?</p>
+    <ul>
+        <li><b>הצטברות × 2</b> - זה הדבר הכי חשוב, לכן כפול 2</li>
+        <li><b>מעבר × 1.5</b> - חמור מאוד (לא רוצים שהחלקיק יגיע לעובר), לכן 1.5 מינוס</li>
+        <li><b>רעילות × 1.0</b> - חשוב אבל פחות קריטי כי חלקיקי זהב בדרך כלל לא רעילים</li>
+    </ul>
+
+    <div class="analogy">
+        חשבו על זה כמו מבחן בית ספר: הצטברות נותנת +200 נקודות, מעבר לעובר
+        מוריד -150 נקודות, ורעילות מורידה -100 נקודות. הציון הגבוה ביותר מנצח.
+    </div>
+</div>
+
+<!-- ═══════════ SECTION 6: SENSITIVITY ═══════════ -->
+<div class="section">
+    <h2>מה באמת משפיע? (ניתוח רגישות)</h2>
+
+    <p>
+        כדי להבין מה באמת חשוב, בדקנו: <b>מה קורה כשמשנים דבר אחד בלבד?</b>
+        התחלנו מחלקיק "בסיסי" (זהב, 15nm, PEG, RGD, ניטרלי) ושינינו כל פעם
+        רק פרמטר אחד.
+    </p>
+
+    <h3>ציפוי (Coating) - ההשפעה הגדולה ביותר</h3>
+    <p>
+        זה הפרמטר שהכי משנה! שינוי הציפוי משנה את שיעור המעבר לעובר
+        מ-<span class="highlight">6%</span> (PEG - הכי טוב)
+        עד <span class="warning">37%</span> (mPEG - הכי רע).
+    </p>
+    <p>
+        <b>הציפויים הטובים ביותר:</b> PEG, NH2, PEG_COOH, DSPE-PEG<br>
+        <b>הציפויים הפחות טובים:</b> mPEG, transferrin, silica
+    </p>
+
+    <div class="analogy">
+        אם החלקיק הוא ממתק, הציפוי הוא העטיפה. PEG הוא כמו עטיפה שקופה
+        שהשלייה "לא חושדת בה" ומחזיקה אותה. mPEG דומה ל-PEG אבל קצר יותר,
+        ולכן פחות יעיל בהסתרת החלקיק.
+    </p>
+
+    <h3>ליגנד מכוון (Targeting Ligand)</h3>
+    <p>
+        הליגנד הוא מולקולה שמודבקת על החלקיק ו"מכוונת" אותו למקום ספציפי.
+        ההשפעה קטנה יותר מהציפוי: מעבר לעובר משתנה בין 6% ל-23%.
+    </p>
+    <p>
+        <b>הליגנדים הטובים ביותר:</b> CGKRK, NKGLRNK, RGD - אלה פפטידים
+        (חלבונים קטנים) שמכוונים ספציפית לשלייה.
+    </p>
+
+    <h3>מטען חשמלי (Charge)</h3>
+    <p>
+        <b>ניטרלי</b> (מטען אפס) הוא הכי טוב בפער גדול.
+        חלקיק <b>חיובי</b> או <b>שלילי</b> נוטה לעבור יותר לעובר.
+    </p>
+
+    <h3>גודל (Size)</h3>
+    <p>
+        ההשפעה של הגודל יחסית קטנה בטווח 5-50nm.
+        15-20nm נראה אופטימלי, אבל ההבדלים קטנים.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 7: COMBINATIONS ═══════════ -->
+<div class="section">
+    <h2>למה חשוב לבדוק שילובים ולא רק כל פרמטר בנפרד?</h2>
+
+    <p>
+        זו שאלה מצוינת שהתעוררה בניתוח. התשובה: <b>יש אינטראקציות</b> -
+        כלומר, שני דברים שכל אחד טוב בנפרד, לא בהכרח טובים יחד.
+    </p>
+
+    <p>דוגמה שמצאנו:</p>
+    <ul>
+        <li>הליגנד הטוב ביותר <b>בנפרד</b>: <b>CGKRK</b> (ציון ממוצע 1.205)</li>
+        <li>אבל <b>בשילוב עם PEG</b>: הליגנד <b>RGD</b> נותן ציון יותר גבוה מ-CGKRK!</li>
+    </ul>
+
+    <div class="analogy">
+        כמו בכדורגל: השחקן הטוב ביותר לא בהכרח משתלב עם כל קבוצה.
+        שחקן A יכול להיות מצוין בנפרד אבל שחקן B עובד טוב יותר עם שאר הקבוצה.
+    </div>
+
+    <p>
+        לכן ייצרנו <b>20,160 שילובים</b> של חלקיקי זהב (16 ציפויים × 12 ליגנדים
+        × 5 מטענים × 3 מטענים חשמליים × 7 גדלים) והרצנו את כולם דרך המודל.
+        כך מצאנו את השילוב הטוב ביותר בפועל, לא רק בתיאוריה.
+    </p>
+
+    <h3>מפת החום (Heatmap)</h3>
+    <p>
+        בעמוד האופטימיזציה יש טבלה צבעונית שנקראת "מפת חום".
+        כל תא מייצג שילוב של ציפוי (שורות) וליגנד (עמודות).
+    </p>
+    <ul>
+        <li><span style="color:#00c853;">ירוק</span> = שילוב טוב (הצטברות גבוהה, מעבר נמוך)</li>
+        <li><span style="color:#ff9800;">צהוב</span> = בינוני</li>
+        <li><span style="color:#ff5252;">אדום</span> = שילוב רע (מעבר גבוה לעובר)</li>
+    </ul>
+    <p>
+        מפת החום מאפשרת לראות במבט אחד אילו שילובים טובים ואילו לא.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 8: GD ANALYSIS ═══════════ -->
+<div class="section">
+    <h2>באיזה יום בהריון כדאי להזריק?</h2>
+
+    <p>
+        בעכברות, ההריון נמשך כ-19-20 ימים. היום בהריון שבו מזריקים את החלקיקים
+        (נקרא <b>Gestational Day</b> או GD) יכול להשפיע על התוצאות.
+    </p>
+
+    <p>ניתחנו את הנתונים מהספרות ומצאנו:</p>
+
+    <table>
+        <tr><th>יום הריון</th><th>מעבר לעובר</th><th>הצטברות בשלייה</th><th>n (ניסויים)</th></tr>
+        <tr><td>GD 14</td><td style="color:#ff9800;">50%</td><td>75%</td><td>12</td></tr>
+        <tr><td>GD 14.5</td><td style="color:#ff9800;">50%</td><td style="color:#00c853;">100%</td><td>6</td></tr>
+        <tr><td>GD 15</td><td style="color:#ff5252;">100%</td><td style="color:#00c853;">100%</td><td>6</td></tr>
+        <tr style="background:#1a2a1a;">
+            <td><b>GD 16</b></td>
+            <td style="color:#00c853;font-weight:bold;">15% ⭐</td>
+            <td>73%</td><td>13</td>
+        </tr>
+        <tr><td>GD 17</td><td style="color:#ff9800;">67%</td><td style="color:#00c853;">100%</td><td>6</td></tr>
+        <tr><td>GD 18</td><td style="color:#ff9800;">50%</td><td>80%</td><td>6</td></tr>
+    </table>
+
+    <div class="result-box">
+        <div class="big">GD 15-16 מומלץ</div>
+        <p style="margin:8px 0 0; font-size:14px; color:#a0a0b8;">
+            GD 16 מראה את שיעור המעבר הנמוך ביותר (15% בלבד!)
+        </p>
+    </div>
+
+    <div class="warning-box">
+        <h4>שימו לב</h4>
+        <p style="font-size:14px;">
+            הנתונים האלה מבוססים על סטטיסטיקה (ספירה של ניסויים), לא על מודל ML,
+            כי יש מעט מדי ניסויים לכל GD (6-13 בלבד).
+            בנוסף, מחקרים שונים השתמשו בחומרים שונים, מה שמקשה על השוואה ישירה.
+            התוצאות מרמזות על מגמה אבל צריך לאמת בניסוי.
+        </p>
+    </div>
+</div>
+
+<!-- ═══════════ SECTION 9: THE RECOMMENDATION ═══════════ -->
+<div class="section">
+    <h2>ההמלצה הסופית לשירי</h2>
+
+    <div class="result-box">
+        <div class="big" style="margin-bottom:16px;">חלקיקי זהב + PEG + RGD + Dexamethasone</div>
+        <div class="metric-row" style="justify-content:center;">
+            <div class="metric-card">
+                <div class="val" style="color:#f0c040;">20 nm</div>
+                <div class="lbl">גודל</div>
+            </div>
+            <div class="metric-card">
+                <div class="val" style="color:#448aff;">ניטרלי</div>
+                <div class="lbl">מטען חשמלי</div>
+            </div>
+            <div class="metric-card">
+                <div class="val" style="color:#00c853;">GD 15-16</div>
+                <div class="lbl">יום הריון</div>
+            </div>
+        </div>
+    </div>
+
+    <h3>למה השילוב הזה?</h3>
+    <ul>
+        <li><b>PEG</b> - הציפוי הטוב ביותר. מסתיר את החלקיק ממערכת החיסון,
+            מגדיל זמן סירקולציה בדם, ומקטין מעבר לעובר</li>
+        <li><b>RGD</b> - פפטיד שנקשר ל-integrins על פני תאי השלייה,
+            מכוון את החלקיק ספציפית לשם. עובד טוב יותר מ-CGKRK בשילוב עם PEG</li>
+        <li><b>Dexamethasone</b> - סטרואיד אנטי-דלקתי. שירי תוכל גם לשקול
+            Anakinra (חוסם IL-1 - מה שהיא מתכננת) שהציון שלו כמעט זהה</li>
+        <li><b>20nm</b> - גודל אופטימלי לזהב, לא קטן מדי (יסונן בכליות)
+            ולא גדול מדי (ייתפס בכבד)</li>
+        <li><b>ניטרלי</b> - מטען ניטרלי מקטין ספיחה לא ספציפית ומעבר דרך ממברנות</li>
+    </ul>
+
+    <h3>השוואה לתוצאות שירי הקיימות</h3>
+    <table>
+        <tr><th>חלקיק</th><th>P:F ratio</th><th>מעבר חזוי</th><th>ציון</th></tr>
+        <tr>
+            <td>mPEG-GNP (בפועל)</td><td>181</td>
+            <td style="color:#ff5252;">49%</td><td>1.14</td>
+        </tr>
+        <tr>
+            <td>Insulin-GNP (בפועל)</td><td>186</td>
+            <td style="color:#ff5252;">50%</td><td>1.13</td>
+        </tr>
+        <tr>
+            <td>Glucose-GNP (בפועל)</td><td style="color:#00c853;">360</td>
+            <td style="color:#ff5252;">50%</td><td>1.13</td>
+        </tr>
+        <tr style="background:#1a2a1a;">
+            <td><b>PEG+RGD+Dexa (המלצה)</b></td><td>?</td>
+            <td style="color:#00c853;font-weight:bold;">4%</td>
+            <td style="color:#f0c040;font-weight:bold;">1.91</td>
+        </tr>
+    </table>
+    <p style="font-size:13px; color:#a0a0b8;">
+        P:F ratio = יחס ריכוז בשלייה לריכוז בעובר. ככל שגבוה יותר = יותר נשאר בשלייה.
+        הגלוקוז של שירי (360) היה הכי טוב עד כה.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 10: PREDICTOR TOOL ═══════════ -->
+<div class="section">
+    <h2>כלי החיזוי האינטראקטיבי - איך להשתמש?</h2>
+
+    <p>
+        בטאב "כלי חיזוי" שירי יכולה לבחור כל שילוב שמעניין אותה ולראות
+        מה המודל חוזה. ככה:
+    </p>
+
+    <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+            <b>בוחרים ציפוי</b> - לדוגמה PEG (מומלץ ביותר)
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+            <b>בוחרים ליגנד</b> - RGD, CGKRK, glucose, או none (בלי)
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+            <b>בוחרים מטען טיפולי</b> - none (לבדיקה בלבד), anakinra, dexamethasone
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">
+            <b>מגדירים מטען חשמלי, גודל, מינון ויום הריון</b>
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-text">
+            <b>רואים תוצאות</b> - 3 מדדים עגולים (ירוק/אדום/כתום) + ציון מורכב + הערכה מילולית
+        </div>
+    </div>
+
+    <p>
+        <b>מה המעגלים העגולים (gauges) אומרים?</b>
+    </p>
+    <ul>
+        <li><span style="color:#00c853;">ירוק - הצטברות בשלייה:</span> ככל שגבוה יותר = יותר טוב</li>
+        <li><span style="color:#ff5252;">אדום - מעבר לעובר:</span> ככל שנמוך יותר = יותר טוב</li>
+        <li><span style="color:#ff9800;">כתום - רעילות:</span> ככל שנמוך יותר = יותר טוב</li>
+    </ul>
+    <p>
+        <b>ההערכה המילולית:</b>
+    </p>
+    <ul>
+        <li><span style="color:#00c853;">"שילוב מצוין"</span> = הצטברות > 80%, מעבר < 10%, רעילות < 20%</li>
+        <li><span style="color:#448aff;">"שילוב טוב"</span> = הצטברות > 70%, מעבר < 20%</li>
+        <li><span style="color:#ff9800;">"שילוב סביר"</span> = ביניים</li>
+        <li><span style="color:#ff5252;">"אזהרה"</span> = מעבר > 50% או רעילות > 50%</li>
+    </ul>
+</div>
+
+<!-- ═══════════ SECTION 11: LIMITATIONS ═══════════ -->
+<div class="section">
+    <h2>מה המודל לא יודע (מגבלות)</h2>
+
+    <div class="warning-box">
+        <h4>חשוב לקרוא לפני שמסתמכים על התוצאות:</h4>
+        <ul>
+            <li><b>רק 59 ניסויים בזהב</b> מתוך 486. המודל לומד גם מחומרים אחרים
+                (ליפוזומים, פולימרים) ומכליל - אבל חלקיקי זהב מתנהגים אחרת.</li>
+            <li><b>הנתונים מהספרות לא אחידים</b> - כל מחקר השתמש בשיטות שונות,
+                מינונים שונים, וזני עכברות שונים.</li>
+            <li><b>הצטברות תמיד גבוהה</b> - כמעט כל הננו-חלקיקים בספרות הצטברו
+                בשלייה, לכן המודל לא מצליח להבדיל טוב לגבי הצטברות.</li>
+            <li><b>ליגנדים חדשים</b> - ליגנדים כמו NKGLRNK ו-RSGVAKS הם חדשים
+                ואין עליהם הרבה נתונים. המודל "מנחש" על בסיס דמיון לליגנדים אחרים.</li>
+            <li><b>זה לא מחליף ניסוי</b> - המודל נותן הערכה מושכלת,
+                אבל רק ניסוי במעבדה יכול לאמת את התוצאות.</li>
+        </ul>
+    </div>
+
+    <p>
+        <b>בשורה התחתונה:</b> הכלי הזה הוא <b>עזר להחלטה</b>, לא תחליף לשיקול דעת מדעי.
+        הוא עוזר לשירי למקד את הניסויים הבאים במקום הכי סביר להצלחה,
+        במקום לנסות שילובים אקראיים.
+    </p>
+</div>
+
+<!-- ═══════════ SECTION 12: SUMMARY ═══════════ -->
+<div class="section">
+    <h2>סיכום בנקודות</h2>
+
+    <div class="step">
+        <div class="step-num" style="background:#00c853;">✓</div>
+        <div class="step-text">
+            אספנו <b>486 ניסויים</b> מהספרות המדעית ולימדנו מחשב למצוא דפוסים
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num" style="background:#00c853;">✓</div>
+        <div class="step-text">
+            המודל חוזה 3 דברים: הצטברות בשלייה (AUC=0.89), מעבר לעובר (0.82), ורעילות (0.93)
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num" style="background:#00c853;">✓</div>
+        <div class="step-text">
+            בדקנו <b>20,160 שילובים</b> של חלקיקי זהב כולל אינטראקציות בין פרמטרים
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num" style="background:#00c853;">✓</div>
+        <div class="step-text">
+            <b>ציפוי</b> הוא הפרמטר החשוב ביותר - PEG הטוב ביותר, mPEG הגרוע ביותר
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num" style="background:#00c853;">✓</div>
+        <div class="step-text">
+            המלצה: <b>Au + PEG + RGD + 20nm + ניטרלי + GD 15-16</b>
+        </div>
+    </div>
+    <div class="step">
+        <div class="step-num" style="background:#ff9800;">!</div>
+        <div class="step-text">
+            זו הערכה מבוססת ML - צריך לאמת בניסוי בפועל
+        </div>
+    </div>
+</div>
+
+<div class="nav-links">
+    <a href="/">כלי האופטימיזציה</a>
+    <a href="/data.html">מאגר הנתונים</a>
+</div>
+
+</div><!-- end container -->
+
+<footer>
+    NanoPlacentaDB - Gold NP Experiment Optimizer | 486 records, 372 studies | ML: Extra Trees / Gradient Boosting
+</footer>
+
+</body>
+</html>
